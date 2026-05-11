@@ -1,0 +1,486 @@
+{
+  "D:\\Project Google Play\\tetris\\android\\build.gradle.kts": {
+    "mtime": 1758599193.4090247,
+    "hash": "803fe22651fbe96ed401eb0b66a492d1"
+  },
+  "D:\\Project Google Play\\tetris\\android\\gradlew": {
+    "mtime": 1758599193.703679,
+    "hash": "7f1cd7eb3f75a1dc85cd37753972a6e2"
+  },
+  "D:\\Project Google Play\\tetris\\android\\settings.gradle.kts": {
+    "mtime": 1758599193.4512112,
+    "hash": "7e2b812e622b81575eb9060fa80d2ae2"
+  },
+  "D:\\Project Google Play\\tetris\\android\\app\\build.gradle.kts": {
+    "mtime": 1760241209.3545902,
+    "hash": "b5d965bd3b291a93fac8837f8374c95e"
+  },
+  "D:\\Project Google Play\\tetris\\android\\app\\src\\main\\java\\io\\flutter\\plugins\\GeneratedPluginRegistrant.java": {
+    "mtime": 1760233562.7964647,
+    "hash": "2a61787d204f7eb7432011d9b02829ce"
+  },
+  "D:\\Project Google Play\\tetris\\android\\app\\src\\main\\kotlin\\com\\tetrisku\\app\\MainActivity.kt": {
+    "mtime": 1758627504.1495326,
+    "hash": "cc315ee8fa7e55fb1f2c48e33987b6e2"
+  },
+  "D:\\Project Google Play\\tetris\\ios\\Flutter\\ephemeral\\flutter_lldb_helper.py": {
+    "mtime": 1778228816.2000823,
+    "hash": "98fc75412162af387e2e3461e4e58094"
+  },
+  "D:\\Project Google Play\\tetris\\ios\\Runner\\AppDelegate.swift": {
+    "mtime": 1757665952.8026705,
+    "hash": "e277c49e98c9f80e9e71c0524a5cb60f"
+  },
+  "D:\\Project Google Play\\tetris\\ios\\Runner\\GeneratedPluginRegistrant.h": {
+    "mtime": 1758599262.092468,
+    "hash": "decb9041b5e91a07e66f4664e5dac408"
+  },
+  "D:\\Project Google Play\\tetris\\ios\\Runner\\GeneratedPluginRegistrant.m": {
+    "mtime": 1760233562.8943934,
+    "hash": "72ce43a007cb01737d58da7a0860dd4b"
+  },
+  "D:\\Project Google Play\\tetris\\ios\\Runner\\Runner-Bridging-Header.h": {
+    "mtime": 1757665952.8142376,
+    "hash": "7ad7b5cea096132de13ba526b2b9efbe"
+  },
+  "D:\\Project Google Play\\tetris\\ios\\RunnerTests\\RunnerTests.swift": {
+    "mtime": 1758599193.5323398,
+    "hash": "24e5d095048eb86c30423f4e04b6e57b"
+  },
+  "D:\\Project Google Play\\tetris\\lib\\main.dart": {
+    "mtime": 1778228656.8890007,
+    "hash": "1a26a293a143d4ca357c95beff8115b3"
+  },
+  "D:\\Project Google Play\\tetris\\lib\\music_manager.dart": {
+    "mtime": 1760167312.2301586,
+    "hash": "f974e79e0ac0d1450a627c1b7d6b16a8"
+  },
+  "D:\\Project Google Play\\tetris\\lib\\src\\app.dart": {
+    "mtime": 1760166895.1746697,
+    "hash": "ce32a20c98a24e86334c74b26b15102c"
+  },
+  "D:\\Project Google Play\\tetris\\lib\\src\\board.dart": {
+    "mtime": 1760174441.1207566,
+    "hash": "2055f8789f3f59b273bc36d421fb4e1e"
+  },
+  "D:\\Project Google Play\\tetris\\lib\\src\\tetris_game.dart": {
+    "mtime": 1778229689.9632614,
+    "hash": "85e87d47989f7d9896a026a2ec34dfe3"
+  },
+  "D:\\Project Google Play\\tetris\\lib\\src\\tetromino.dart": {
+    "mtime": 1758873018.5473123,
+    "hash": "8645c1cc0f2b8088ee033b6152b5e17b"
+  },
+  "D:\\Project Google Play\\tetris\\lib\\src\\game\\board_card.dart": {
+    "mtime": 1778231804.886627,
+    "hash": "266578b54db98364a5ff6b579e8a720d"
+  },
+  "D:\\Project Google Play\\tetris\\lib\\src\\game\\game_over_dialog.dart": {
+    "mtime": 1778231627.7306232,
+    "hash": "4bfb4e1ab388b31f7ac6b73ed159a1f6"
+  },
+  "D:\\Project Google Play\\tetris\\lib\\src\\game\\info_panel.dart": {
+    "mtime": 1778230833.8020263,
+    "hash": "4b74598761e43856b795603afb8dfa88"
+  },
+  "D:\\Project Google Play\\tetris\\lib\\src\\game\\intents.dart": {
+    "mtime": 1760167171.4313262,
+    "hash": "5dd8a183c976b1f3a5bff2d5628beb43"
+  },
+  "D:\\Project Google Play\\tetris\\lib\\src\\game\\tetris_home.dart": {
+    "mtime": 1778231439.0798347,
+    "hash": "bf5b1ce9b567c01c845e040aee8528f0"
+  },
+  "D:\\Project Google Play\\tetris\\lib\\src\\menu\\main_menu.dart": {
+    "mtime": 1778229318.760029,
+    "hash": "74bf861de242cf6e372f8fd6469c8502"
+  },
+  "D:\\Project Google Play\\tetris\\lib\\src\\services\\high_score_service.dart": {
+    "mtime": 1778228643.1388044,
+    "hash": "70fde0effc2a36b159a5829c440aebcb"
+  },
+  "D:\\Project Google Play\\tetris\\lib\\src\\services\\sound_manager.dart": {
+    "mtime": 1778230105.8303947,
+    "hash": "dce3fbfd179a548335f187ace5378f63"
+  },
+  "D:\\Project Google Play\\tetris\\lib\\src\\widgets\\banner_ad_widget.dart": {
+    "mtime": 1758609285.4742093,
+    "hash": "2315ec4334e060fc99a081220e262e02"
+  },
+  "D:\\Project Google Play\\tetris\\lib\\src\\widgets\\control_panel.dart": {
+    "mtime": 1778230625.7168348,
+    "hash": "fe94dd5aba9d811118d18f9cdf4f4bf0"
+  },
+  "D:\\Project Google Play\\tetris\\lib\\src\\widgets\\interstitial_ad_widget.dart": {
+    "mtime": 1759654236.0226529,
+    "hash": "0ea4dfaca1a785736ebee5d1d4d702d7"
+  },
+  "D:\\Project Google Play\\tetris\\lib\\src\\widgets\\next_piece_preview.dart": {
+    "mtime": 1778229391.5864084,
+    "hash": "fd50a259655c235e590d0fc7f1dbfdfc"
+  },
+  "D:\\Project Google Play\\tetris\\lib\\src\\widgets\\tetris_board.dart": {
+    "mtime": 1778231132.0037816,
+    "hash": "ba5cc7cf6bce5e962af8ccff2d8ac747"
+  },
+  "D:\\Project Google Play\\tetris\\linux\\flutter\\generated_plugin_registrant.cc": {
+    "mtime": 1759643632.7164128,
+    "hash": "7506739e15f9fd0c6de2db3633ddc90c"
+  },
+  "D:\\Project Google Play\\tetris\\linux\\flutter\\generated_plugin_registrant.h": {
+    "mtime": 1758599262.0808785,
+    "hash": "d295462c9da9f7fef22dc86c34492318"
+  },
+  "D:\\Project Google Play\\tetris\\linux\\runner\\main.cc": {
+    "mtime": 1757665953.1107264,
+    "hash": "539395bcd63dba20afed0838d136189f"
+  },
+  "D:\\Project Google Play\\tetris\\linux\\runner\\my_application.cc": {
+    "mtime": 1758599193.5482123,
+    "hash": "228fdfb1321c8ff4dd9b4a6edecd6956"
+  },
+  "D:\\Project Google Play\\tetris\\linux\\runner\\my_application.h": {
+    "mtime": 1757665953.1241627,
+    "hash": "f6b37d58752c8671078b6f660e33e8c1"
+  },
+  "D:\\Project Google Play\\tetris\\macos\\Flutter\\GeneratedPluginRegistrant.swift": {
+    "mtime": 1760233562.9108877,
+    "hash": "5656fb6d4f350dbde9dc88f10483ffc5"
+  },
+  "D:\\Project Google Play\\tetris\\macos\\Runner\\AppDelegate.swift": {
+    "mtime": 1757665953.162497,
+    "hash": "4b52e0b89ebfef9baf45b04548c463d6"
+  },
+  "D:\\Project Google Play\\tetris\\macos\\Runner\\MainFlutterWindow.swift": {
+    "mtime": 1757665953.1760361,
+    "hash": "93c22dae2d93f3dc1402e121901f582b"
+  },
+  "D:\\Project Google Play\\tetris\\macos\\RunnerTests\\RunnerTests.swift": {
+    "mtime": 1758599193.61642,
+    "hash": "8059f5d27a19c556eeafb49b3f9b7bdd"
+  },
+  "D:\\Project Google Play\\tetris\\test\\game_logic_test.dart": {
+    "mtime": 1778230800.845093,
+    "hash": "db10031d29c70f9a22ba8ba4e69a4568"
+  },
+  "D:\\Project Google Play\\tetris\\test\\high_score_test.dart": {
+    "mtime": 1778230134.355783,
+    "hash": "80d4c41e049c30cfa0cbec6df7aca84c"
+  },
+  "D:\\Project Google Play\\tetris\\windows\\flutter\\generated_plugin_registrant.cc": {
+    "mtime": 1759643632.7564552,
+    "hash": "aea8053902126fa024f86ccf8de879d3"
+  },
+  "D:\\Project Google Play\\tetris\\windows\\flutter\\generated_plugin_registrant.h": {
+    "mtime": 1758599262.0859098,
+    "hash": "0ea33875f9f8e118f9c2ded03e2e2835"
+  },
+  "D:\\Project Google Play\\tetris\\windows\\runner\\flutter_window.cpp": {
+    "mtime": 1757665953.468635,
+    "hash": "2f463f9b7da67a2d692a012f9ea85e0c"
+  },
+  "D:\\Project Google Play\\tetris\\windows\\runner\\flutter_window.h": {
+    "mtime": 1757665953.4735777,
+    "hash": "7defcc89d4a26d56e801241d624d48fb"
+  },
+  "D:\\Project Google Play\\tetris\\windows\\runner\\main.cpp": {
+    "mtime": 1758599193.653914,
+    "hash": "9f4f1be9a200aaf1d7716c349002c62b"
+  },
+  "D:\\Project Google Play\\tetris\\windows\\runner\\resource.h": {
+    "mtime": 1757665953.483749,
+    "hash": "1ade5dd15e613479a15e8832ed276f2b"
+  },
+  "D:\\Project Google Play\\tetris\\windows\\runner\\utils.cpp": {
+    "mtime": 1757665953.5021913,
+    "hash": "432461b09d862a2f8dadf380ff0e34e5"
+  },
+  "D:\\Project Google Play\\tetris\\windows\\runner\\utils.h": {
+    "mtime": 1757665953.5071437,
+    "hash": "fd81e143f5614eb6fd75efe539002853"
+  },
+  "D:\\Project Google Play\\tetris\\windows\\runner\\win32_window.cpp": {
+    "mtime": 1757665953.515455,
+    "hash": "571eb8234dbc2661be03aa5f2a4d2fca"
+  },
+  "D:\\Project Google Play\\tetris\\windows\\runner\\win32_window.h": {
+    "mtime": 1757665953.5204263,
+    "hash": "7569387d58711ab975940f4df3b4bcda"
+  },
+  "D:\\Project Google Play\\tetris\\analysis_options.yaml": {
+    "mtime": 1758599193.4015028,
+    "hash": "9e65f4b9beebb674c0dc252f70a5c177"
+  },
+  "D:\\Project Google Play\\tetris\\pubspec.yaml": {
+    "mtime": 1778229278.2349355,
+    "hash": "bbd10b62cd29f3206ea35b3fe424ff8c"
+  },
+  "D:\\Project Google Play\\tetris\\README.md": {
+    "mtime": 1758599193.6204617,
+    "hash": "6bb53064d8ec1e97bee0456ef8b21901"
+  },
+  "D:\\Project Google Play\\tetris\\ios\\Runner\\Assets.xcassets\\LaunchImage.imageset\\README.md": {
+    "mtime": 1757665952.9390135,
+    "hash": "f7ee1b402881509d197f34963e569927"
+  },
+  "D:\\Project Google Play\\tetris\\linux\\CMakeLists.txt": {
+    "mtime": 1758599193.538883,
+    "hash": "a7bf17267dea51ac3ea16a760ccb1c59"
+  },
+  "D:\\Project Google Play\\tetris\\linux\\flutter\\CMakeLists.txt": {
+    "mtime": 1757665953.097074,
+    "hash": "2195470ce31675d31db5a37590d011f6"
+  },
+  "D:\\Project Google Play\\tetris\\linux\\runner\\CMakeLists.txt": {
+    "mtime": 1757665953.1092074,
+    "hash": "30cc1614b16214b66c014af09ba699eb"
+  },
+  "D:\\Project Google Play\\tetris\\web\\index.html": {
+    "mtime": 1758608860.825175,
+    "hash": "61bb87a99c9ed3a81ff0c37588e33e4a"
+  },
+  "D:\\Project Google Play\\tetris\\windows\\CMakeLists.txt": {
+    "mtime": 1758599193.6393023,
+    "hash": "927fde403c0c81b372dcdc08c7b67278"
+  },
+  "D:\\Project Google Play\\tetris\\windows\\flutter\\CMakeLists.txt": {
+    "mtime": 1757665953.4511845,
+    "hash": "bbf66fed5180bd9ae8198b8d7c4a0001"
+  },
+  "D:\\Project Google Play\\tetris\\windows\\runner\\CMakeLists.txt": {
+    "mtime": 1757665953.45895,
+    "hash": "028602ab9754bffe716659ada7590d29"
+  },
+  "D:\\Project Google Play\\tetris\\android\\app\\src\\main\\res\\drawable\\background.png": {
+    "mtime": 1758608859.1109912,
+    "hash": "ae647b2dc42f55ff6bde04b779b48897"
+  },
+  "D:\\Project Google Play\\tetris\\android\\app\\src\\main\\res\\drawable-hdpi\\splash.png": {
+    "mtime": 1758608859.1917205,
+    "hash": "a987d9ec8bce9c3aa49f09c68806b60a"
+  },
+  "D:\\Project Google Play\\tetris\\android\\app\\src\\main\\res\\drawable-mdpi\\splash.png": {
+    "mtime": 1758608859.171973,
+    "hash": "0a1fa26ecc7f7e603e37d93790bff19e"
+  },
+  "D:\\Project Google Play\\tetris\\android\\app\\src\\main\\res\\drawable-v21\\background.png": {
+    "mtime": 1758608859.1132507,
+    "hash": "ae647b2dc42f55ff6bde04b779b48897"
+  },
+  "D:\\Project Google Play\\tetris\\android\\app\\src\\main\\res\\drawable-xhdpi\\splash.png": {
+    "mtime": 1758608859.2435215,
+    "hash": "c1365ac7be4ad8eeb3096dd1797ada5a"
+  },
+  "D:\\Project Google Play\\tetris\\android\\app\\src\\main\\res\\drawable-xxhdpi\\splash.png": {
+    "mtime": 1758608859.357805,
+    "hash": "f571b8672372edbe5b4726cfb45eaecf"
+  },
+  "D:\\Project Google Play\\tetris\\android\\app\\src\\main\\res\\drawable-xxxhdpi\\splash.png": {
+    "mtime": 1758608859.4386363,
+    "hash": "9327943d0811a067f97e5cc9627ab2a7"
+  },
+  "D:\\Project Google Play\\tetris\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png": {
+    "mtime": 1757665952.651259,
+    "hash": "13e9c72ec37fac220397aa819fa1ef2d"
+  },
+  "D:\\Project Google Play\\tetris\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png": {
+    "mtime": 1757665952.6638656,
+    "hash": "6270344430679711b81476e29878caa7"
+  },
+  "D:\\Project Google Play\\tetris\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png": {
+    "mtime": 1757665952.6788802,
+    "hash": "a0a8db5985280b3679d99a820ae2db79"
+  },
+  "D:\\Project Google Play\\tetris\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png": {
+    "mtime": 1757665952.6915512,
+    "hash": "afe1b655b9f32da22f9a4301bb8e6ba8"
+  },
+  "D:\\Project Google Play\\tetris\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png": {
+    "mtime": 1757665952.7016997,
+    "hash": "57838d52c318faff743130c3fcfae0c6"
+  },
+  "D:\\Project Google Play\\tetris\\assets\\tetris_icon.png": {
+    "mtime": 1758608329.527992,
+    "hash": "98a457b188a4f4a5924e09f9c98d854a"
+  },
+  "D:\\Project Google Play\\tetris\\assets\\tetris_phone_1.jpg": {
+    "mtime": 1758612466.5641205,
+    "hash": "3c3f0148d24ca5957d741037af02487e"
+  },
+  "D:\\Project Google Play\\tetris\\ios\\Runner\\Assets.xcassets\\AppIcon.appiconset\\Icon-App-1024x1024@1x.png": {
+    "mtime": 1757666378.0770898,
+    "hash": "c785f8932297af4acd5f5ccb7630f01c"
+  },
+  "D:\\Project Google Play\\tetris\\ios\\Runner\\Assets.xcassets\\AppIcon.appiconset\\Icon-App-20x20@1x.png": {
+    "mtime": 1757666378.0770898,
+    "hash": "a2f8558fb1d42514111fbbb19fb67314"
+  },
+  "D:\\Project Google Play\\tetris\\ios\\Runner\\Assets.xcassets\\AppIcon.appiconset\\Icon-App-20x20@2x.png": {
+    "mtime": 1757666378.0770898,
+    "hash": "2247a840b6ee72b8a069208af170e5b1"
+  },
+  "D:\\Project Google Play\\tetris\\ios\\Runner\\Assets.xcassets\\AppIcon.appiconset\\Icon-App-20x20@3x.png": {
+    "mtime": 1757666378.0770898,
+    "hash": "1b3b1538136316263c7092951e923e9d"
+  },
+  "D:\\Project Google Play\\tetris\\ios\\Runner\\Assets.xcassets\\AppIcon.appiconset\\Icon-App-29x29@1x.png": {
+    "mtime": 1757666378.089482,
+    "hash": "be8887071dd7ec39cb754d236aa9584f"
+  },
+  "D:\\Project Google Play\\tetris\\ios\\Runner\\Assets.xcassets\\AppIcon.appiconset\\Icon-App-29x29@2x.png": {
+    "mtime": 1757666378.0770898,
+    "hash": "043119ef4faa026ff82bd03f241e5338"
+  },
+  "D:\\Project Google Play\\tetris\\ios\\Runner\\Assets.xcassets\\AppIcon.appiconset\\Icon-App-29x29@3x.png": {
+    "mtime": 1757666378.0770898,
+    "hash": "2b1452c4c1bda6177b4fbbb832df217f"
+  },
+  "D:\\Project Google Play\\tetris\\ios\\Runner\\Assets.xcassets\\AppIcon.appiconset\\Icon-App-40x40@1x.png": {
+    "mtime": 1757666378.0770898,
+    "hash": "2247a840b6ee72b8a069208af170e5b1"
+  },
+  "D:\\Project Google Play\\tetris\\ios\\Runner\\Assets.xcassets\\AppIcon.appiconset\\Icon-App-40x40@2x.png": {
+    "mtime": 1757666378.0876048,
+    "hash": "8245359312aea1b0d2412f79a07b0ca5"
+  },
+  "D:\\Project Google Play\\tetris\\ios\\Runner\\Assets.xcassets\\AppIcon.appiconset\\Icon-App-40x40@3x.png": {
+    "mtime": 1757666378.0770898,
+    "hash": "5b3c0902200ce596e9848f22e1f0fe0e"
+  },
+  "D:\\Project Google Play\\tetris\\ios\\Runner\\Assets.xcassets\\AppIcon.appiconset\\Icon-App-60x60@2x.png": {
+    "mtime": 1757666378.0770898,
+    "hash": "5b3c0902200ce596e9848f22e1f0fe0e"
+  },
+  "D:\\Project Google Play\\tetris\\ios\\Runner\\Assets.xcassets\\AppIcon.appiconset\\Icon-App-60x60@3x.png": {
+    "mtime": 1757666378.0770898,
+    "hash": "e419d22a37bc40ba185aca1acb6d4ac6"
+  },
+  "D:\\Project Google Play\\tetris\\ios\\Runner\\Assets.xcassets\\AppIcon.appiconset\\Icon-App-76x76@1x.png": {
+    "mtime": 1757666378.0770898,
+    "hash": "36c0d7a7132bdde18898ffdfcfcdc4d2"
+  },
+  "D:\\Project Google Play\\tetris\\ios\\Runner\\Assets.xcassets\\AppIcon.appiconset\\Icon-App-76x76@2x.png": {
+    "mtime": 1757666378.0909998,
+    "hash": "643842917530acf4c5159ae851b0baf2"
+  },
+  "D:\\Project Google Play\\tetris\\ios\\Runner\\Assets.xcassets\\AppIcon.appiconset\\Icon-App-83.5x83.5@2x.png": {
+    "mtime": 1757666378.0770898,
+    "hash": "665cb5e3c5729da6d639d26eff47a503"
+  },
+  "D:\\Project Google Play\\tetris\\ios\\Runner\\Assets.xcassets\\LaunchBackground.imageset\\background.png": {
+    "mtime": 1758608859.464111,
+    "hash": "ae647b2dc42f55ff6bde04b779b48897"
+  },
+  "D:\\Project Google Play\\tetris\\ios\\Runner\\Assets.xcassets\\LaunchImage.imageset\\LaunchImage.png": {
+    "mtime": 1758608859.429611,
+    "hash": "0a1fa26ecc7f7e603e37d93790bff19e"
+  },
+  "D:\\Project Google Play\\tetris\\ios\\Runner\\Assets.xcassets\\LaunchImage.imageset\\LaunchImage@2x.png": {
+    "mtime": 1758608859.4956255,
+    "hash": "c1365ac7be4ad8eeb3096dd1797ada5a"
+  },
+  "D:\\Project Google Play\\tetris\\ios\\Runner\\Assets.xcassets\\LaunchImage.imageset\\LaunchImage@3x.png": {
+    "mtime": 1758608859.6037102,
+    "hash": "f571b8672372edbe5b4726cfb45eaecf"
+  },
+  "D:\\Project Google Play\\tetris\\macos\\Runner\\Assets.xcassets\\AppIcon.appiconset\\app_icon_1024.png": {
+    "mtime": 1757666378.0716593,
+    "hash": "c9becc9105f8cabce934d20c7bfb6aac"
+  },
+  "D:\\Project Google Play\\tetris\\macos\\Runner\\Assets.xcassets\\AppIcon.appiconset\\app_icon_128.png": {
+    "mtime": 1757666378.060025,
+    "hash": "3ded30823804caaa5ccc944067c54a36"
+  },
+  "D:\\Project Google Play\\tetris\\macos\\Runner\\Assets.xcassets\\AppIcon.appiconset\\app_icon_16.png": {
+    "mtime": 1757666378.060025,
+    "hash": "8bf511604bc6ed0a6aeb380c5113fdcf"
+  },
+  "D:\\Project Google Play\\tetris\\macos\\Runner\\Assets.xcassets\\AppIcon.appiconset\\app_icon_256.png": {
+    "mtime": 1757666378.0716593,
+    "hash": "dfe2c93d1536ae02f085cc63faa3430e"
+  },
+  "D:\\Project Google Play\\tetris\\macos\\Runner\\Assets.xcassets\\AppIcon.appiconset\\app_icon_32.png": {
+    "mtime": 1757666378.060025,
+    "hash": "8e0ae58e362a6636bdfccbc04da2c58c"
+  },
+  "D:\\Project Google Play\\tetris\\macos\\Runner\\Assets.xcassets\\AppIcon.appiconset\\app_icon_512.png": {
+    "mtime": 1757666378.060025,
+    "hash": "0ad44039155424738917502c69667699"
+  },
+  "D:\\Project Google Play\\tetris\\macos\\Runner\\Assets.xcassets\\AppIcon.appiconset\\app_icon_64.png": {
+    "mtime": 1757666378.060025,
+    "hash": "04e7b6ef05346c70b663ca1d97de3ad5"
+  },
+  "D:\\Project Google Play\\tetris\\web\\favicon.png": {
+    "mtime": 1757665953.3817232,
+    "hash": "5dcef449791fa27946b3d35ad8803796"
+  },
+  "D:\\Project Google Play\\tetris\\web\\icons\\Icon-192.png": {
+    "mtime": 1757665953.4078724,
+    "hash": "ac9a721a12bbc803b44f645561ecb1e1"
+  },
+  "D:\\Project Google Play\\tetris\\web\\icons\\Icon-512.png": {
+    "mtime": 1757665953.4137082,
+    "hash": "96e752610906ba2a93c65f8abe1645f1"
+  },
+  "D:\\Project Google Play\\tetris\\web\\icons\\Icon-maskable-192.png": {
+    "mtime": 1757666378.1527057,
+    "hash": "c457ef57daa1d16f64b27b786ec2ea3c"
+  },
+  "D:\\Project Google Play\\tetris\\web\\icons\\Icon-maskable-512.png": {
+    "mtime": 1757666378.1515172,
+    "hash": "301a7604d45b3e739efc881eb04896ea"
+  },
+  "D:\\Project Google Play\\tetris\\web\\splash\\img\\dark-1x.png": {
+    "mtime": 1758608860.178765,
+    "hash": "0a1fa26ecc7f7e603e37d93790bff19e"
+  },
+  "D:\\Project Google Play\\tetris\\web\\splash\\img\\dark-2x.png": {
+    "mtime": 1758608860.2804444,
+    "hash": "c1365ac7be4ad8eeb3096dd1797ada5a"
+  },
+  "D:\\Project Google Play\\tetris\\web\\splash\\img\\dark-3x.png": {
+    "mtime": 1758608860.4616258,
+    "hash": "f571b8672372edbe5b4726cfb45eaecf"
+  },
+  "D:\\Project Google Play\\tetris\\web\\splash\\img\\dark-4x.png": {
+    "mtime": 1758608860.6909895,
+    "hash": "9327943d0811a067f97e5cc9627ab2a7"
+  },
+  "D:\\Project Google Play\\tetris\\web\\splash\\img\\light-1x.png": {
+    "mtime": 1758608859.575422,
+    "hash": "0a1fa26ecc7f7e603e37d93790bff19e"
+  },
+  "D:\\Project Google Play\\tetris\\web\\splash\\img\\light-2x.png": {
+    "mtime": 1758608859.675564,
+    "hash": "c1365ac7be4ad8eeb3096dd1797ada5a"
+  },
+  "D:\\Project Google Play\\tetris\\web\\splash\\img\\light-3x.png": {
+    "mtime": 1758608859.8564842,
+    "hash": "f571b8672372edbe5b4726cfb45eaecf"
+  },
+  "D:\\Project Google Play\\tetris\\web\\splash\\img\\light-4x.png": {
+    "mtime": 1758608860.0867176,
+    "hash": "9327943d0811a067f97e5cc9627ab2a7"
+  },
+  "D:\\Project Google Play\\tetris\\assets\\sounds\\berakhir.mp3": {
+    "mtime": 1759653034.7722037,
+    "hash": "2b25b90aabcbacec0b4cfd2172f4dae1"
+  },
+  "D:\\Project Google Play\\tetris\\assets\\sounds\\drop.mp3": {
+    "mtime": 1759642504.3593414,
+    "hash": "4d93c09510ba39547621eb3dec2dbcd4"
+  },
+  "D:\\Project Google Play\\tetris\\assets\\sounds\\hapus.mp3": {
+    "mtime": 1759642970.6684945,
+    "hash": "64e5ef9e755ecf0d786f7c885c6982ba"
+  },
+  "D:\\Project Google Play\\tetris\\assets\\sounds\\menu_theme.mp3": {
+    "mtime": 1759642863.3000224,
+    "hash": "b41ec151cdef9d7393d4f3c89c13370c"
+  },
+  "D:\\Project Google Play\\tetris\\assets\\sounds\\rotate.mp3": {
+    "mtime": 1759642948.6662347,
+    "hash": "193d592abbfbbf62a2e4c9471fe8df38"
+  }
+}
