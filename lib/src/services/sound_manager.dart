@@ -3,19 +3,41 @@ import 'package:flutter/foundation.dart';
 import 'package:audioplayers/audioplayers.dart';
 
 class SoundManager {
-  static List<AudioPlayer>? _players;
-  static int _currentIndex = 0;
+  static final Map<String, List<AudioPlayer>> _sfxPool = {};
+  static final Map<String, int> _sfxIndices = {};
   static bool _isMuted = false;
   
   /// Set ini ke `false` saat unit testing untuk menghindari error plugin audio.
   static bool enableSound = true;
 
-  static void _ensureInitialized() {
+  static Future<void> preload() async {
     if (!enableSound) return;
-    _players ??= List.generate(
-      5,
-      (_) => AudioPlayer()..setPlayerMode(PlayerMode.lowLatency),
-    );
+    try {
+      final sfxCounts = {
+        'sounds/drop.wav': 5,     // << Tambah dari 3 ke 5
+        'sounds/rotate.wav': 5,   // << Tambah dari 3 ke 5
+        'sounds/hapus.wav': 3,
+        'sounds/berakhir.wav': 1,
+      };
+
+      for (final entry in sfxCounts.entries) {
+        final path = entry.key;
+        final count = entry.value;
+        final players = <AudioPlayer>[];
+        
+        for (int i = 0; i < count; i++) {
+          final p = AudioPlayer()..setPlayerMode(PlayerMode.lowLatency);
+          await p.setSource(AssetSource(path));
+          players.add(p);
+        }
+        
+        _sfxPool[path] = players;
+        _sfxIndices[path] = 0;
+      }
+      developer.log("✅ SFX Pool ditingkatkan untuk responsivitas tinggi", name: "SoundManager");
+    } catch (e) {
+      developer.log("Preload error: $e", name: "SoundManager");
+    }
   }
 
   /// Memainkan efek suara pendek (SFX) dari assets.
@@ -23,19 +45,21 @@ class SoundManager {
     if (_isMuted || !enableSound) return;
 
     try {
-      _ensureInitialized();
-      final player = _players![_currentIndex];
-      
-      player.play(AssetSource(assetPath)).catchError((e, st) {
-        developer.log(
-          "❌ Gagal memutar sfx $assetPath",
-          error: e,
-          stackTrace: st,
-          name: "SoundManager",
-        );
-      });
+      final players = _sfxPool[assetPath];
+      if (players != null && players.isNotEmpty) {
+        final idx = _sfxIndices[assetPath]! % players.length;
+        final p = players[idx];
+        
+        // Langsung lompat ke awal dan putar (metode paling stabil & cepat)
+        p.seek(Duration.zero);
+        p.resume();
 
-      _currentIndex = (_currentIndex + 1) % _players!.length;
+        _sfxIndices[assetPath] = idx + 1;
+      } else {
+        // Fallback jika belum di-preload
+        final p = AudioPlayer()..setPlayerMode(PlayerMode.lowLatency);
+        p.play(AssetSource(assetPath)).catchError((_) {});
+      }
     } catch (e) {
       debugPrint("SoundManager Error: $e");
     }
@@ -43,18 +67,29 @@ class SoundManager {
 
   static void mute() {
     _isMuted = true;
-    _ensureInitialized();
-    _players?.forEach((p) => p.setVolume(0));
+    for (final list in _sfxPool.values) {
+      for (final p in list) {
+        p.setVolume(0);
+      }
+    }
   }
 
   static void unmute() {
     _isMuted = false;
-    _ensureInitialized();
-    _players?.forEach((p) => p.setVolume(1.0));
+    for (final list in _sfxPool.values) {
+      for (final p in list) {
+        p.setVolume(1.0);
+      }
+    }
   }
 
   static void dispose() {
-    _players?.forEach((p) => p.dispose());
-    _players = null;
+    for (final list in _sfxPool.values) {
+      for (final p in list) {
+        p.dispose();
+      }
+    }
+    _sfxPool.clear();
+    _sfxIndices.clear();
   }
 }

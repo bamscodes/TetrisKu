@@ -48,12 +48,12 @@
     "hash": "24e5d095048eb86c30423f4e04b6e57b"
   },
   "D:\\Project Google Play\\tetris\\lib\\main.dart": {
-    "mtime": 1778228656.8890007,
-    "hash": "1a26a293a143d4ca357c95beff8115b3"
+    "mtime": 1778574533.608871,
+    "hash": "e01dbcb1a4a3259140cefc62f46f8a2b"
   },
   "D:\\Project Google Play\\tetris\\lib\\music_manager.dart": {
-    "mtime": 1760167312.2301586,
-    "hash": "f974e79e0ac0d1450a627c1b7d6b16a8"
+    "mtime": 1778575521.1242328,
+    "hash": "1dfce35f7a0590d36631fc8a3f4dea0a"
   },
   "D:\\Project Google Play\\tetris\\lib\\src\\app.dart": {
     "mtime": 1760166895.1746697,
@@ -64,52 +64,52 @@
     "hash": "2055f8789f3f59b273bc36d421fb4e1e"
   },
   "D:\\Project Google Play\\tetris\\lib\\src\\tetris_game.dart": {
-    "mtime": 1778229689.9632614,
-    "hash": "85e87d47989f7d9896a026a2ec34dfe3"
+    "mtime": 1778576650.9760988,
+    "hash": "d176d5ade2d599b90dcfab3a8d9967e4"
   },
   "D:\\Project Google Play\\tetris\\lib\\src\\tetromino.dart": {
-    "mtime": 1758873018.5473123,
-    "hash": "8645c1cc0f2b8088ee033b6152b5e17b"
+    "mtime": 1778569657.6076114,
+    "hash": "5af41bacdc1093abbaf283a46a71d44b"
   },
   "D:\\Project Google Play\\tetris\\lib\\src\\game\\board_card.dart": {
-    "mtime": 1778231804.886627,
-    "hash": "266578b54db98364a5ff6b579e8a720d"
+    "mtime": 1778576627.243268,
+    "hash": "3f6df9da88407a10cfab68297af847c9"
   },
   "D:\\Project Google Play\\tetris\\lib\\src\\game\\game_over_dialog.dart": {
-    "mtime": 1778231627.7306232,
-    "hash": "4bfb4e1ab388b31f7ac6b73ed159a1f6"
+    "mtime": 1778569259.237231,
+    "hash": "9d1888b752d7ee47649f6bb9fe4f7388"
   },
   "D:\\Project Google Play\\tetris\\lib\\src\\game\\info_panel.dart": {
-    "mtime": 1778230833.8020263,
-    "hash": "4b74598761e43856b795603afb8dfa88"
+    "mtime": 1778572367.3453321,
+    "hash": "b5a27eafea5d9df1450747f7cb918e68"
   },
   "D:\\Project Google Play\\tetris\\lib\\src\\game\\intents.dart": {
     "mtime": 1760167171.4313262,
     "hash": "5dd8a183c976b1f3a5bff2d5628beb43"
   },
   "D:\\Project Google Play\\tetris\\lib\\src\\game\\tetris_home.dart": {
-    "mtime": 1778231439.0798347,
-    "hash": "bf5b1ce9b567c01c845e040aee8528f0"
+    "mtime": 1778574547.3638191,
+    "hash": "3f7230cf691ec147bd4621c23bed04c9"
   },
   "D:\\Project Google Play\\tetris\\lib\\src\\menu\\main_menu.dart": {
-    "mtime": 1778229318.760029,
-    "hash": "74bf861de242cf6e372f8fd6469c8502"
+    "mtime": 1778578269.65946,
+    "hash": "3d9d705f2ee11da82e185133be489319"
   },
   "D:\\Project Google Play\\tetris\\lib\\src\\services\\high_score_service.dart": {
     "mtime": 1778228643.1388044,
     "hash": "70fde0effc2a36b159a5829c440aebcb"
   },
   "D:\\Project Google Play\\tetris\\lib\\src\\services\\sound_manager.dart": {
-    "mtime": 1778230105.8303947,
-    "hash": "dce3fbfd179a548335f187ace5378f63"
+    "mtime": 1778576022.642965,
+    "hash": "709896d753bda9d2837701c8f400a9b7"
   },
   "D:\\Project Google Play\\tetris\\lib\\src\\widgets\\banner_ad_widget.dart": {
     "mtime": 1758609285.4742093,
     "hash": "2315ec4334e060fc99a081220e262e02"
   },
   "D:\\Project Google Play\\tetris\\lib\\src\\widgets\\control_panel.dart": {
-    "mtime": 1778230625.7168348,
-    "hash": "fe94dd5aba9d811118d18f9cdf4f4bf0"
+    "mtime": 1778573223.841942,
+    "hash": "f76277ce9507bb45cfa152aee2b9de15"
   },
   "D:\\Project Google Play\\tetris\\lib\\src\\widgets\\interstitial_ad_widget.dart": {
     "mtime": 1759654236.0226529,
@@ -120,7 +120,7 @@
     "hash": "fd50a259655c235e590d0fc7f1dbfdfc"
   },
   "D:\\Project Google Play\\tetris\\lib\\src\\widgets\\tetris_board.dart": {
-    "mtime": 1778231132.0037816,
+    "mtime": 1778572217.3458169,
     "hash": "ba5cc7cf6bce5e962af8ccff2d8ac747"
   },
   "D:\\Project Google Play\\tetris\\linux\\flutter\\generated_plugin_registrant.cc": {
@@ -167,6 +167,10 @@
     "mtime": 1778230134.355783,
     "hash": "80d4c41e049c30cfa0cbec6df7aca84c"
   },
+  "D:\\Project Google Play\\tetris\\test\\improvements_test.dart": {
+    "mtime": 1778571252.9451368,
+    "hash": "a5a7972af77b4b792dd0e0daea16ac99"
+  },
   "D:\\Project Google Play\\tetris\\windows\\flutter\\generated_plugin_registrant.cc": {
     "mtime": 1759643632.7564552,
     "hash": "aea8053902126fa024f86ccf8de879d3"
@@ -212,8 +216,8 @@
     "hash": "9e65f4b9beebb674c0dc252f70a5c177"
   },
   "D:\\Project Google Play\\tetris\\pubspec.yaml": {
-    "mtime": 1778229278.2349355,
-    "hash": "bbd10b62cd29f3206ea35b3fe424ff8c"
+    "mtime": 1778565113.9842763,
+    "hash": "b35ded50814a9154adf6e02cb972ff0a"
   },
   "D:\\Project Google Play\\tetris\\README.md": {
     "mtime": 1758599193.6204617,
@@ -306,6 +310,10 @@
   "D:\\Project Google Play\\tetris\\assets\\tetris_phone_1.jpg": {
     "mtime": 1758612466.5641205,
     "hash": "3c3f0148d24ca5957d741037af02487e"
+  },
+  "D:\\Project Google Play\\tetris\\assets\\images\\main_bg.png": {
+    "mtime": 1778577112.2595794,
+    "hash": "5fb90e3d4d2d41f15b4373302d7e5950"
   },
   "D:\\Project Google Play\\tetris\\ios\\Runner\\Assets.xcassets\\AppIcon.appiconset\\Icon-App-1024x1024@1x.png": {
     "mtime": 1757666378.0770898,
@@ -463,24 +471,24 @@
     "mtime": 1758608860.0867176,
     "hash": "9327943d0811a067f97e5cc9627ab2a7"
   },
-  "D:\\Project Google Play\\tetris\\assets\\sounds\\berakhir.mp3": {
-    "mtime": 1759653034.7722037,
-    "hash": "2b25b90aabcbacec0b4cfd2172f4dae1"
+  "D:\\Project Google Play\\tetris\\assets\\sounds\\berakhir.wav": {
+    "mtime": 1778565095.4719217,
+    "hash": "152dd04e5ceccef00eee76b7f9b35ff8"
   },
-  "D:\\Project Google Play\\tetris\\assets\\sounds\\drop.mp3": {
-    "mtime": 1759642504.3593414,
-    "hash": "4d93c09510ba39547621eb3dec2dbcd4"
+  "D:\\Project Google Play\\tetris\\assets\\sounds\\drop.wav": {
+    "mtime": 1778565095.4001656,
+    "hash": "edc61c070cfc48990099acbad5d410ab"
   },
-  "D:\\Project Google Play\\tetris\\assets\\sounds\\hapus.mp3": {
-    "mtime": 1759642970.6684945,
-    "hash": "64e5ef9e755ecf0d786f7c885c6982ba"
+  "D:\\Project Google Play\\tetris\\assets\\sounds\\hapus.wav": {
+    "mtime": 1778565095.4206347,
+    "hash": "010c71cbc024114fb84411ef6960ef77"
   },
-  "D:\\Project Google Play\\tetris\\assets\\sounds\\menu_theme.mp3": {
-    "mtime": 1759642863.3000224,
-    "hash": "b41ec151cdef9d7393d4f3c89c13370c"
+  "D:\\Project Google Play\\tetris\\assets\\sounds\\menu_theme.wav": {
+    "mtime": 1778565096.8008294,
+    "hash": "39ddc0797c9faeb8ab4ea90849939f42"
   },
-  "D:\\Project Google Play\\tetris\\assets\\sounds\\rotate.mp3": {
-    "mtime": 1759642948.6662347,
-    "hash": "193d592abbfbbf62a2e4c9471fe8df38"
+  "D:\\Project Google Play\\tetris\\assets\\sounds\\rotate.wav": {
+    "mtime": 1778565095.396106,
+    "hash": "3ae85ef8fe9ebda0a5e02d272414c004"
   }
 }

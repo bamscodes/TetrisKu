@@ -6,17 +6,20 @@ import 'board.dart';
 import 'tetromino.dart';
 import 'services/sound_manager.dart';
 
-enum GameState { idle, running, paused, gameOver }
+enum GameState { idle, running, gameOver }
 
 class TetrisGame extends ChangeNotifier {
   final Board board;
   final Random rng = Random();
+  late final PieceBag _bag;
   final void Function()? onGameOver;
 
   bool _isDisposed = false;
 
   late Tetromino current;
   late Tetromino nextPiece;
+  Tetromino? heldPiece; // Balok yang sedang disimpan
+  bool canHold = true;   // Flag untuk membatasi hold 1x per spawn
   late Offset origin;
   Tetromino? ghost;
   late Offset _ghostOrigin;
@@ -35,7 +38,8 @@ class TetrisGame extends ChangeNotifier {
 
   TetrisGame({this.onGameOver, int width = 10, int height = 20})
     : board = Board(width: width, height: height) {
-    nextPiece = Tetromino(randomPiece(rng));
+    _bag = PieceBag(rng);
+    nextPiece = Tetromino(_bag.next());
     _spawnNew();
   }
 
@@ -43,7 +47,7 @@ class TetrisGame extends ChangeNotifier {
   GameState get state => _state;
   bool get isIdle => _state == GameState.idle;
   bool get isRunning => _state == GameState.running;
-  bool get isPaused => _state == GameState.paused;
+
   bool get isGameOver => _state == GameState.gameOver;
 
   double get boardAspectRatio => board.width / board.height;
@@ -56,13 +60,7 @@ class TetrisGame extends ChangeNotifier {
     _safeNotify();
   }
 
-  void pause() {
-    if (_state == GameState.running) {
-      _state = GameState.paused;
-      _timer?.cancel();
-      _safeNotify();
-    }
-  }
+
 
   void reset() {
     _state = GameState.idle;
@@ -85,7 +83,7 @@ class TetrisGame extends ChangeNotifier {
   void gameOver() {
     _state = GameState.gameOver;
     _timer?.cancel();
-    SoundManager.playSound('sounds/berakhir.mp3');
+    SoundManager.playSound('sounds/berakhir.wav');
     onGameOver?.call();
     _safeNotify();
   }
@@ -110,9 +108,31 @@ class TetrisGame extends ChangeNotifier {
 
   void _spawnNew() {
     current = nextPiece;
-    nextPiece = Tetromino(randomPiece(rng));
+    nextPiece = Tetromino(_bag.next());
     origin = Offset(board.width / 2.0, 0.0);
+    canHold = true; // Reset flag hold setiap kali balok baru muncul
     _computeGhost();
+  }
+
+  void hold() {
+    if (!canHold || !isRunning) return;
+
+    if (heldPiece == null) {
+      // Simpan balok sekarang, ambil yang baru dari bag
+      heldPiece = Tetromino(current.type);
+      _spawnNew();
+    } else {
+      // Tukar balok sekarang dengan yang disimpan
+      final tempType = current.type;
+      current = Tetromino(heldPiece!.type);
+      heldPiece = Tetromino(tempType);
+      origin = Offset(board.width / 2.0, 0.0);
+      _computeGhost();
+    }
+
+    canHold = false; // Kunci fitur hold sampai balok berikutnya
+    SoundManager.playSound('sounds/rotate.wav'); // Efek suara transisi
+    _safeNotify();
   }
 
   void _computeGhost() {
@@ -148,7 +168,7 @@ class TetrisGame extends ChangeNotifier {
         if (cleared > 0) {
           linesCleared += cleared;
           score += [0, 40, 100, 300, 1200][cleared] * level;
-          SoundManager.playSound('sounds/hapus.mp3');
+          SoundManager.playSound('sounds/hapus.wav');
 
           if (linesCleared ~/ 10 >= level) {
             level++;
@@ -159,6 +179,7 @@ class TetrisGame extends ChangeNotifier {
 
         flashingRows.clear();
         _spawnNew();
+        Future.delayed(const Duration(milliseconds: 100), () => lastClearedLines = 0);
 
         if (!board.canPlace(current, origin)) {
           gameOver();
@@ -178,28 +199,7 @@ class TetrisGame extends ChangeNotifier {
     }
   }
 
-  // Tambahkan di dalam class TetrisGame
-  void continueFromGameOver() {
-    // Jika state bukan gameOver, abaikan
-    if (!isGameOver) return;
 
-    // Jangan reset score/level/linesCleared; hanya reset board dan piece
-    _flashTimer?.cancel();
-    board.cells = List.generate(
-      board.height,
-      (_) => List<Color?>.filled(board.width, null),
-    );
-    flashingRows.clear();
-    lastClearedLines = 0;
-
-    // Recompute tick dari level agar konsisten
-    tick = Duration(milliseconds: max(120, 700 - (level - 1) * 70));
-
-    _spawnNew();
-    _state = GameState.running;
-    _scheduleTick();
-    _safeNotify();
-  }
 
   void _gameTick() {
     if (!isRunning || _isDisposed) return;
@@ -234,7 +234,7 @@ class TetrisGame extends ChangeNotifier {
       origin = origin.translate(0.0, 1.0);
       score += 1;
       _computeGhost();
-      SoundManager.playSound('sounds/drop.mp3');
+      SoundManager.playSound('sounds/drop.wav');
       _safeNotify();
     }
   }
@@ -246,7 +246,7 @@ class TetrisGame extends ChangeNotifier {
       score += 2;
       dropped = true;
     }
-    if (dropped) SoundManager.playSound('sounds/drop.mp3');
+    if (dropped) SoundManager.playSound('sounds/drop.wav');
     _lock();
   }
 
@@ -258,7 +258,7 @@ class TetrisGame extends ChangeNotifier {
         current = rotated;
         origin = testOrigin;
         _computeGhost();
-        SoundManager.playSound('sounds/rotate.mp3');
+        SoundManager.playSound('sounds/rotate.wav');
         _safeNotify();
         return;
       }

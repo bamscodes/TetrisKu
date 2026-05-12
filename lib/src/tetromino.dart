@@ -101,7 +101,25 @@ class Tetromino {
     Offset(0.0, -1.0),
   ];
 }
+/// 7-bag randomizer (standar Tetris modern).
+/// Menjamin setiap 7 piece, pemain mendapat semua jenis tepat sekali.
+class PieceBag {
+  final Random _rng;
+  final List<PieceType> _bag = [];
 
+  PieceBag(this._rng);
+
+  PieceType next() {
+    if (_bag.isEmpty) {
+      _bag.addAll(PieceType.values);
+      _bag.shuffle(_rng);
+    }
+    return _bag.removeLast();
+  }
+}
+
+/// Legacy helper — tetap ada agar kode lama tidak error,
+/// tapi sekarang TetrisGame menggunakan PieceBag.
 PieceType randomPiece(Random rng) {
   final values = PieceType.values;
   return values[rng.nextInt(values.length)];

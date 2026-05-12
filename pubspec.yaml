@@ -69,11 +69,11 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/
-    - assets/sounds/menu_theme.mp3
-    - assets/sounds/drop.mp3
-    - assets/sounds/rotate.mp3
-    - assets/sounds/hapus.mp3
-    - assets/sounds/berakhir.mp3
+    - assets/sounds/menu_theme.wav
+    - assets/sounds/drop.wav
+    - assets/sounds/rotate.wav
+    - assets/sounds/hapus.wav
+    - assets/sounds/berakhir.wav
 
 
   # An image asset can refer to one or more resolution-specific "variants", see

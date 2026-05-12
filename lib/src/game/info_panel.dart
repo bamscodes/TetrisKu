@@ -2,102 +2,117 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import '../tetris_game.dart';
 
-class InfoPanel extends StatefulWidget {
+class InfoPanel extends StatelessWidget {
   const InfoPanel({super.key, required this.game, required this.lives});
   final TetrisGame game;
   final int lives;
 
   @override
-  State<InfoPanel> createState() => _InfoPanelState();
-}
-
-class _InfoPanelState extends State<InfoPanel> {
-  @override
   Widget build(BuildContext context) {
-    final game = widget.game;
-    final lives = widget.lives;
-
     return Container(
-      margin: const EdgeInsets.all(12),
-      padding: const EdgeInsets.all(16),
+      margin: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+      padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
       decoration: BoxDecoration(
         gradient: const LinearGradient(
           colors: [Color(0xFF0D0D2B), Color(0xFF1A1A3F)],
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
         ),
-        borderRadius: BorderRadius.circular(20),
-        border: Border.all(color: Colors.cyanAccent, width: 2),
+        borderRadius: BorderRadius.circular(16),
+        border: Border.all(
+          color: Colors.cyanAccent.withValues(alpha: 0.5),
+          width: 1.5,
+        ),
         boxShadow: [
           BoxShadow(
-            color: const Color(0xFF00FFFF).withValues(alpha: 0.3),
-            blurRadius: 12,
-            spreadRadius: 2,
+            color: const Color(0xFF00FFFF).withValues(alpha: 0.15),
+            blurRadius: 8,
+            spreadRadius: 1,
           ),
         ],
       ),
-      child: Column(
+      child: Row(
         children: [
-          Text(
-            "Tetrisku",
-            style: GoogleFonts.orbitron(
-              fontSize: 24,
-              fontWeight: FontWeight.bold,
-              color: Colors.cyanAccent,
-              shadows: [
-                Shadow(
-                  blurRadius: 12,
-                  color: Colors.blueAccent,
-                  offset: Offset(0, 0),
-                ),
-              ],
+          // ── Logo & Status ──
+          ShaderMask(
+            shaderCallback: (bounds) => const LinearGradient(
+              colors: [Colors.cyanAccent, Colors.purpleAccent],
+            ).createShader(bounds),
+            child: Text(
+              "TETRISKU",
+              style: GoogleFonts.orbitron(
+                fontSize: 16,
+                fontWeight: FontWeight.w900,
+                color: Colors.white,
+                letterSpacing: 2,
+              ),
             ),
           ),
-          const SizedBox(height: 4),
-          AnimatedDefaultTextStyle(
-            duration: const Duration(milliseconds: 300),
-            style: TextStyle(
-              fontSize: 12,
-              fontWeight: FontWeight.bold,
-              color: game.isRunning
-                  ? Colors.lightBlueAccent
-                  : game.isGameOver
-                  ? Colors.pinkAccent
-                  : Colors.purpleAccent,
+
+          const SizedBox(width: 10),
+
+          // ── Status Pill ──
+          Container(
+            padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 3),
+            decoration: BoxDecoration(
+              color: _statusColor.withValues(alpha: 0.15),
+              borderRadius: BorderRadius.circular(8),
+              border: Border.all(color: _statusColor.withValues(alpha: 0.4)),
             ),
             child: Text(
-              game.isRunning
-                  ? "Running"
-                  : game.isGameOver
-                  ? "Game Over"
-                  : "Paused",
+              _statusText,
+              style: TextStyle(
+                fontSize: 9,
+                fontWeight: FontWeight.bold,
+                color: _statusColor,
+                letterSpacing: 1,
+              ),
             ),
           ),
-          const SizedBox(height: 12),
 
-          // Indikator nyawa (ikon hati neon)
-          Wrap(
-            alignment: WrapAlignment.center,
-            spacing: 6,
-            runSpacing: 6,
-            children: List.generate(lives, (index) {
-              return Icon(
-                Icons.favorite,
-                color: Colors.redAccent,
-                size: 20,
-                shadows: const [
-                  Shadow(
-                    blurRadius: 10,
-                    color: Colors.pinkAccent,
-                    offset: Offset(0, 0),
-                  ),
-                ],
-              );
-            }),
+          const Spacer(),
+
+          // ── Lives (hati) ──
+          Row(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              // Hati yang terisi (sisa free plays)
+              ...List.generate(lives, (_) => Padding(
+                padding: const EdgeInsets.only(right: 3),
+                child: Icon(
+                  Icons.favorite_rounded,
+                  color: Colors.redAccent,
+                  size: 16,
+                  shadows: const [
+                    Shadow(blurRadius: 6, color: Colors.pinkAccent),
+                  ],
+                ),
+              )),
+              // Hati yang kosong (sudah dipakai)
+              ...List.generate(2 - lives, (_) => Padding(
+                padding: const EdgeInsets.only(right: 3),
+                child: Icon(
+                  Icons.favorite_border_rounded,
+                  color: Colors.white24,
+                  size: 16,
+                ),
+              )),
+            ],
           ),
         ],
       ),
     );
   }
-}
 
+  String get _statusText {
+    if (game.isRunning) return "BERMAIN";
+    if (game.isGameOver) return "SELESAI";
+    return "SIAP";
+  }
+
+  Color get _statusColor {
+    if (game.isRunning) return Colors.lightGreenAccent;
+    if (game.isGameOver) return Colors.pinkAccent;
+    return Colors.cyanAccent;
+  }
+}

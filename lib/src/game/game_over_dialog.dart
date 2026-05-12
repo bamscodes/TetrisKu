@@ -9,6 +9,7 @@ class GameOverDialog extends StatefulWidget {
   final int level;
   final int highScore;
   final bool isNewHighScore;
+  final int remainingFreePlays;
   final VoidCallback onRestart;
   final VoidCallback onExit;
 
@@ -18,6 +19,7 @@ class GameOverDialog extends StatefulWidget {
     required this.level,
     required this.highScore,
     required this.isNewHighScore,
+    this.remainingFreePlays = 0,
     required this.onRestart,
     required this.onExit,
   });
@@ -94,7 +96,7 @@ class _GameOverDialogState extends State<GameOverDialog>
       _celebrationController.repeat();
       
       // Play high score sound if possible, or just re-play game over
-      SoundManager.playSound('sounds/berakhir.mp3'); 
+      SoundManager.playSound('sounds/berakhir.wav'); 
     }
   }
 
@@ -252,10 +254,16 @@ class _GameOverDialogState extends State<GameOverDialog>
                         children: [
                           Expanded(
                             child: _DialogButton(
-                              label: "MAIN LAGI",
-                              icon: Icons.replay_rounded,
+                              label: widget.remainingFreePlays > 0
+                                  ? "MAIN LAGI"
+                                  : "🎬 TONTON",
+                              icon: widget.remainingFreePlays > 0
+                                  ? Icons.replay_rounded
+                                  : Icons.play_circle_outline_rounded,
                               onPressed: widget.onRestart,
-                              primaryColor: Colors.cyanAccent,
+                              primaryColor: widget.remainingFreePlays > 0
+                                  ? Colors.cyanAccent
+                                  : Colors.amberAccent,
                             ),
                           ),
                           const SizedBox(width: 12),
