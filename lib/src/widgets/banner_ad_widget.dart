@@ -15,19 +15,21 @@ class _BannerAdWidgetState extends State<BannerAdWidget> {
   @override
   void initState() {
     super.initState();
+    _loadAd();
+  }
+
+  void _loadAd() {
     _bannerAd = BannerAd(
-      adUnitId: 'ca-app-pub-2144310268071555/9407632757', // Banner ID
+      adUnitId: 'ca-app-pub-2144310268071555/9407632757',
       size: AdSize.banner,
       request: const AdRequest(),
       listener: BannerAdListener(
         onAdLoaded: (ad) {
-          setState(() {
-            _isLoaded = true;
-          });
+          if (!mounted) return;
+          setState(() => _isLoaded = true);
         },
         onAdFailedToLoad: (ad, error) {
           ad.dispose();
-          debugPrint('Banner failed to load: $error');
         },
       ),
     )..load();
@@ -41,10 +43,10 @@ class _BannerAdWidgetState extends State<BannerAdWidget> {
 
   @override
   Widget build(BuildContext context) {
-    if (!_isLoaded) {
-      return const SizedBox(height: 50); // placeholder
-    }
-    return SizedBox(
+    if (!_isLoaded || _bannerAd == null) return const SizedBox(height: 50);
+
+    return Container(
+      alignment: Alignment.center,
       width: _bannerAd!.size.width.toDouble(),
       height: _bannerAd!.size.height.toDouble(),
       child: AdWidget(ad: _bannerAd!),

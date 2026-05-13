@@ -1,13 +1,13 @@
-import 'dart:async';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 import '../tetris_game.dart';
 import '../widgets/tetris_board.dart';
-import '../widgets/next_piece_preview.dart';
 
 class BoardCard extends StatefulWidget {
-  const BoardCard({super.key, required this.game});
+  const BoardCard({super.key, required this.game, required this.lives});
   final TetrisGame game;
+  final int lives;
 
   @override
   State<BoardCard> createState() => _BoardCardState();
@@ -15,17 +15,26 @@ class BoardCard extends StatefulWidget {
 
 class _BoardCardState extends State<BoardCard>
     with SingleTickerProviderStateMixin {
-  // ── Swipe Debounce ──
-  DateTime _lastSwipeTime = DateTime.now();
-  static const _swipeCooldown = Duration(milliseconds: 80);
+  // ── Gesture Logic ──
+  double _hDragOffset = 0;
+  double _vDragOffset = 0;
+  static const double _hThreshold = 35.0;
+  static const double _vThreshold = 40.0;
 
   // ── Combo Overlay ──
   String? _comboText;
   Color _comboColor = Colors.cyanAccent;
+  int _lastTotalLinesCleared = 0;
   late AnimationController _comboController;
   late Animation<double> _comboScale;
   late Animation<double> _comboFade;
-  int _prevLinesCleared = 0;
+
+  // Cache combo text style
+  static final _comboBaseStyle = GoogleFonts.orbitron(
+    fontSize: 32,
+    fontWeight: FontWeight.w900,
+    letterSpacing: 4,
+  );
 
   @override
   void initState() {
@@ -46,17 +55,18 @@ class _BoardCardState extends State<BoardCard>
       ),
     );
 
+    _lastTotalLinesCleared = widget.game.linesCleared;
     widget.game.addListener(_onGameUpdate);
   }
 
   void _onGameUpdate() {
-    final cleared = widget.game.lastClearedLines;
-    // Pemicu harus berdasarkan perubahan status atau jika nilai cleared baru > 0
-    // Kita reset lastClearedLines di game setelah diambil agar tidak trigger berulang
-    if (cleared > 0) {
-      _showCombo(cleared);
-      // Opsional: kita bisa set di game agar lastClearedLines jadi 0 
-      // tapi karena ini listener, lebih baik kita handle flag di sini
+    final currentTotal = widget.game.linesCleared;
+    if (currentTotal > _lastTotalLinesCleared) {
+      final cleared = widget.game.lastClearedLines;
+      if (cleared > 0) {
+        _showCombo(cleared);
+      }
+      _lastTotalLinesCleared = currentTotal;
     }
   }
 
@@ -85,14 +95,49 @@ class _BoardCardState extends State<BoardCard>
     _comboController.forward(from: 0);
   }
 
-  void _handleSwipe(DragUpdateDetails details) {
-    final now = DateTime.now();
-    if (now.difference(_lastSwipeTime) < _swipeCooldown) return;
-    _lastSwipeTime = now;
+  // ── GESTURE HANDLERS ──
 
-    if (details.delta.dx > 10) widget.game.moveRight();
-    if (details.delta.dx < -10) widget.game.moveLeft();
-    if (details.delta.dy > 10) widget.game.softDrop();
+  void _onPanStart(DragStartDetails d) {
+    _hDragOffset = 0;
+    _vDragOffset = 0;
+  }
+
+  void _onPanUpdate(DragUpdateDetails d) {
+    _hDragOffset += d.delta.dx;
+    _vDragOffset += d.delta.dy;
+
+    if (_hDragOffset.abs() > _hThreshold) {
+      if (_hDragOffset > 0) {
+        widget.game.moveRight();
+      } else {
+        widget.game.moveLeft();
+      }
+      HapticFeedback.selectionClick();
+      _hDragOffset = 0;
+    }
+
+    if (_vDragOffset > _vThreshold) {
+      widget.game.softDrop();
+      HapticFeedback.selectionClick();
+      _vDragOffset = 0;
+    }
+  }
+
+  void _onPanEnd(DragEndDetails d) {
+    if (d.velocity.pixelsPerSecond.dy > 1200) {
+      widget.game.hardDrop();
+      HapticFeedback.heavyImpact();
+    }
+  }
+
+  void _handleTap() {
+    widget.game.rotate();
+    HapticFeedback.lightImpact();
+  }
+
+  void _handleLongPress() {
+    widget.game.hold();
+    HapticFeedback.mediumImpact();
   }
 
   @override
@@ -105,213 +150,56 @@ class _BoardCardState extends State<BoardCard>
   @override
   Widget build(BuildContext context) {
     final game = widget.game;
-    final isWide = MediaQuery.of(context).size.width > 900;
 
     return Card(
-      elevation: 0, // Hapus bayangan agar rata
-      margin: EdgeInsets.zero, // << Hapus margin luar
-      color: Colors.black,
+      elevation: 0,
+      margin: EdgeInsets.zero,
+      color: const Color(0xFF080820),
       clipBehavior: Clip.antiAlias,
       shape: RoundedRectangleBorder(
-        borderRadius: isWide ? BorderRadius.circular(16.0) : BorderRadius.zero, // << Hilangkan radius di mobile agar full
-        side: BorderSide(color: Colors.cyanAccent.withValues(alpha: 0.2), width: 1),
+        borderRadius: BorderRadius.circular(12.0),
+        side: const BorderSide(color: Colors.white12, width: 1.0),
       ),
-      child: Padding(
-        padding: const EdgeInsets.all(0.0), // << Hapus padding dalam
-        child: AspectRatio(
-          aspectRatio: game.boardAspectRatio,
-          child: Stack(
-            children: [
-              // ── Game Board ──
+      child: AspectRatio(
+        aspectRatio: game.boardAspectRatio,
+        child: Stack(
+          children: [
+            // Game Board
+            Positioned.fill(
+              child: GestureDetector(
+                onPanStart: _onPanStart,
+                onPanUpdate: _onPanUpdate,
+                onPanEnd: _onPanEnd,
+                onTap: _handleTap,
+                onLongPress: _handleLongPress,
+                child: TetrisBoard(game: game),
+              ),
+            ),
+
+            // Combo Overlay
+            if (_comboText != null)
               Positioned.fill(
-                child: GestureDetector(
-                  onPanUpdate: _handleSwipe,
-                  onDoubleTap: () => game.hardDrop(),
-                  child: TetrisBoard(game: game),
-                ),
-              ),
-
-              // ── Top Left Overlay: Score & Level ──
-              Positioned(
-                top: 12,
-                left: 12,
-                child: _HUDOverlay(
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      _StatText(label: "SCORE", value: "${game.score}", color: Colors.amberAccent),
-                      const SizedBox(height: 4),
-                      _StatText(label: "LEVEL", value: "${game.level}", color: Colors.purpleAccent),
-                    ],
-                  ),
-                ),
-              ),
-
-              // ── Top Right Overlay: Next Piece ──
-              Positioned(
-                top: 12,
-                right: 12,
-                child: _HUDOverlay(
-                  child: Column(
-                    children: [
-                      Text(
-                        "NEXT",
-                        style: GoogleFonts.orbitron(
-                          fontSize: 9,
-                          color: Colors.white54,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                      const SizedBox(height: 4),
-                      SizedBox(
-                        width: 45,
-                        height: 45,
-                        child: NextPiecePreview(piece: game.nextPiece),
-                      ),
-                    ],
-                  ),
-                ),
-              ),
-
-              // ── Bottom Right Overlay: Lines ──
-              Positioned(
-                bottom: 12,
-                right: 12,
-                child: _HUDOverlay(
-                  child: _StatText(
-                    label: "LINES",
-                    value: "${game.linesCleared}",
-                    color: Colors.cyanAccent,
-                  ),
-                ),
-              ),
-
-              // ── Bottom Left Overlay: Held Piece ──
-              Positioned(
-                bottom: 12,
-                left: 12,
-                child: _HUDOverlay(
-                  child: Column(
-                    children: [
-                      Text(
-                        "HOLD",
-                        style: GoogleFonts.orbitron(
-                          fontSize: 9,
-                          color: Colors.white54,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                      const SizedBox(height: 4),
-                      SizedBox(
-                        width: 45,
-                        height: 45,
-                        child: game.heldPiece != null 
-                            ? NextPiecePreview(piece: game.heldPiece!)
-                            : const Center(
-                                child: Icon(Icons.lock_outline, color: Colors.white24, size: 20),
-                              ),
-                      ),
-                    ],
-                  ),
-                ),
-              ),
-
-              // ── Combo Overlay (Center) ──
-              if (_comboText != null)
-                Positioned.fill(
-                  child: AnimatedBuilder(
-                    animation: _comboController,
-                    builder: (context, _) => IgnorePointer(
-                      child: Center(
-                        child: Opacity(
-                          opacity: _comboFade.value,
-                          child: Transform.scale(
-                            scale: _comboScale.value,
-                            child: Text(
-                              _comboText!,
-                              style: GoogleFonts.orbitron(
-                                fontSize: 32,
-                                fontWeight: FontWeight.w900,
-                                color: _comboColor,
-                                letterSpacing: 4,
-                                shadows: [
-                                  Shadow(
-                                    blurRadius: 24,
-                                    color: _comboColor.withValues(alpha: 0.8),
-                                  ),
-                                  Shadow(
-                                    blurRadius: 8,
-                                    color: _comboColor.withValues(alpha: 0.5),
-                                    offset: const Offset(0, 2),
-                                  ),
-                                ],
-                              ),
-                            ),
+                child: AnimatedBuilder(
+                  animation: _comboController,
+                  builder: (context, _) => IgnorePointer(
+                    child: Center(
+                      child: Opacity(
+                        opacity: _comboFade.value,
+                        child: Transform.scale(
+                          scale: _comboScale.value,
+                          child: Text(
+                            _comboText!,
+                            style: _comboBaseStyle.copyWith(color: _comboColor),
                           ),
                         ),
                       ),
                     ),
                   ),
                 ),
-            ],
-          ),
+              ),
+          ],
         ),
       ),
-    );
-  }
-}
-
-class _HUDOverlay extends StatelessWidget {
-  final Widget child;
-  const _HUDOverlay({required this.child});
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 8),
-      decoration: BoxDecoration(
-        color: Colors.black.withValues(alpha: 0.5),
-        borderRadius: BorderRadius.circular(12),
-        border: Border.all(color: Colors.white.withValues(alpha: 0.1)),
-      ),
-      child: child,
-    );
-  }
-}
-
-class _StatText extends StatelessWidget {
-  final String label;
-  final String value;
-  final Color color;
-
-  const _StatText({required this.label, required this.value, required this.color});
-
-  @override
-  Widget build(BuildContext context) {
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      mainAxisSize: MainAxisSize.min,
-      children: [
-        Text(
-          label,
-          style: GoogleFonts.orbitron(
-            fontSize: 8,
-            color: Colors.white54,
-            fontWeight: FontWeight.bold,
-          ),
-        ),
-        Text(
-          value,
-          style: GoogleFonts.orbitron(
-            fontSize: 14,
-            color: color,
-            fontWeight: FontWeight.bold,
-            shadows: [
-              Shadow(blurRadius: 4, color: color.withValues(alpha: 0.5)),
-            ],
-          ),
-        ),
-      ],
     );
   }
 }

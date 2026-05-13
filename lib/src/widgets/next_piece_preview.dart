@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import '../tetromino.dart';
 
 /// Widget yang menampilkan preview blok Tetromino berikutnya.
-/// Menggambar blok dalam grid kecil 4x4 dengan efek neon glow.
+/// Menggambar blok dalam grid kecil 4x4 tanpa efek berat.
 class NextPiecePreview extends StatelessWidget {
   final Tetromino piece;
   const NextPiecePreview({super.key, required this.piece});
@@ -10,21 +10,14 @@ class NextPiecePreview extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.all(12),
+      padding: const EdgeInsets.all(4),
       decoration: BoxDecoration(
         color: const Color(0xFF0A0A1E),
-        borderRadius: BorderRadius.circular(14),
+        borderRadius: BorderRadius.circular(8),
         border: Border.all(
-          color: Tetromino.colorOf(piece.type).withValues(alpha: 0.6),
-          width: 1.5,
+          color: Tetromino.colorOf(piece.type).withValues(alpha: 0.5),
+          width: 1,
         ),
-        boxShadow: [
-          BoxShadow(
-            color: Tetromino.colorOf(piece.type).withValues(alpha: 0.3),
-            blurRadius: 10,
-            spreadRadius: 1,
-          ),
-        ],
       ),
       child: AspectRatio(
         aspectRatio: 1.0,
@@ -58,14 +51,15 @@ class _NextPiecePainter extends CustomPainter {
     final cols = (maxX - minX + 1).toInt();
     final rows = (maxY - minY + 1).toInt();
 
-    // Ukuran sel berdasarkan area yang tersedia
-    final cellSize = (size.shortestSide / 4.0); // max 4 grid
+    final cellSize = (size.shortestSide / 4.0);
     final totalW = cols * cellSize;
     final totalH = rows * cellSize;
 
-    // Posisi center
     final offsetX = (size.width - totalW) / 2;
     final offsetY = (size.height - totalH) / 2;
+
+    final fillPaint = Paint()..color = color;
+    final highlightPaint = Paint()..color = Colors.white.withValues(alpha: 0.2);
 
     for (final b in blocks) {
       final x = (b.dx - minX) * cellSize + offsetX;
@@ -76,30 +70,15 @@ class _NextPiecePainter extends CustomPainter {
         Radius.circular(cellSize * 0.18),
       );
 
-      // Glow
-      final glow = Paint()
-        ..color = color.withValues(alpha: 0.5)
-        ..maskFilter = const MaskFilter.blur(BlurStyle.outer, 6);
-      canvas.drawRRect(rrect, glow);
+      // Fill
+      canvas.drawRRect(rrect, fillPaint);
 
-      // Shadow
-      final shadow = Paint()..color = Colors.black.withValues(alpha: 0.3);
-      canvas.drawRRect(rrect.shift(const Offset(1.5, 1.5)), shadow);
-
-      // Fill gradient
-      final gradient = LinearGradient(
-        begin: Alignment.topLeft,
-        end: Alignment.bottomRight,
-        colors: [color.withValues(alpha: 0.95), color.withValues(alpha: 0.75)],
+      // Simple highlight
+      final hRect = RRect.fromRectAndRadius(
+        Rect.fromLTWH(x + cellSize * 0.12, y + cellSize * 0.12, cellSize * 0.3, cellSize * 0.2),
+        Radius.circular(cellSize * 0.1),
       );
-      final fill = Paint()..shader = gradient.createShader(rect);
-      canvas.drawRRect(rrect, fill);
-
-      // Highlight
-      final highlight = Paint()
-        ..color = Colors.white.withValues(alpha: 0.15)
-        ..maskFilter = const MaskFilter.blur(BlurStyle.normal, 2);
-      canvas.drawRRect(rrect.shift(const Offset(-1.0, -1.0)), highlight);
+      canvas.drawRRect(hRect, highlightPaint);
     }
   }
 

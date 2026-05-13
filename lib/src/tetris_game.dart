@@ -36,6 +36,9 @@ class TetrisGame extends ChangeNotifier {
   Timer? _timer;
   Timer? _flashTimer;
 
+  // ── Throttle notifyListeners ──
+  bool _notifyScheduled = false;
+
   TetrisGame({this.onGameOver, int width = 10, int height = 20})
     : board = Board(width: width, height: height) {
     _bag = PieceBag(rng);
@@ -96,9 +99,18 @@ class TetrisGame extends ChangeNotifier {
     super.dispose();
   }
 
-  /// Memanggil notifyListeners() hanya jika belum di-dispose.
+  /// Throttled notifyListeners — max 1x per microtask (roughly 1x per frame).
+  /// This prevents 10+ rebuilds per frame at high game speeds.
   void _safeNotify() {
-    if (!_isDisposed) notifyListeners();
+    if (_isDisposed) return;
+    if (_notifyScheduled) return;
+    _notifyScheduled = true;
+    scheduleMicrotask(() {
+      _notifyScheduled = false;
+      if (!_isDisposed) {
+        notifyListeners();
+      }
+    });
   }
 
   void _scheduleTick() {
@@ -246,7 +258,6 @@ class TetrisGame extends ChangeNotifier {
       score += 2;
       dropped = true;
     }
-    if (dropped) SoundManager.playSound('sounds/drop.wav');
     _lock();
   }
 

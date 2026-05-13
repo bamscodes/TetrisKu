@@ -1,51 +1,44 @@
-import 'dart:developer' as developer;
 import 'package:audioplayers/audioplayers.dart';
+import 'package:flutter/foundation.dart';
 
 class MusicManager {
-  static AudioPlayer? _player;
-  static bool _isPlaying = false;
+  static final AudioPlayer _player = AudioPlayer()..setReleaseMode(ReleaseMode.loop);
+  static bool _isMuted = false;
 
   static Future<void> playMenuMusic() async {
-    if (_isPlaying) return;
-
-    _player ??= AudioPlayer();
-
+    if (_isMuted) return;
     try {
-      await _player!.setReleaseMode(ReleaseMode.loop);
-      await _player!.setVolume(1.0);
-      await _player!.play(AssetSource('sounds/menu_theme.wav'));
-      _isPlaying = true;
-      developer.log("🎵 Memutar musik menu...", name: "MusicManager");
-    } catch (e, st) {
-      developer.log("❌ Gagal memutar musik menu", error: e, stackTrace: st, name: "MusicManager");
+      await _player.stop();
+      await _player.setSource(AssetSource('sounds/menu.wav'));
+      await _player.resume();
+    } catch (e) {
+      debugPrint("Music error: $e");
     }
   }
 
   static Future<void> playGameplayMusic() async {
-    await stop();
-
-    _player ??= AudioPlayer();
-
+    if (_isMuted) return;
     try {
-      await _player!.setReleaseMode(ReleaseMode.loop);
-      await _player!.setVolume(1.0);
-      await _player!.play(AssetSource('sounds/gameplay_theme.wav'));
-      _isPlaying = true;
-      developer.log("🎮 Memutar musik gameplay...", name: "MusicManager");
+      await _player.stop();
+      await _player.setSource(AssetSource('sounds/gameplay.wav'));
+      await _player.resume();
     } catch (e) {
-      developer.log("⚠️ Musik gameplay gagal", error: e, name: "MusicManager");
+      debugPrint("Music error: $e");
     }
   }
 
   static Future<void> stop() async {
-    if (_player != null) {
-      await _player!.stop();
-    }
-    _isPlaying = false;
+    await _player.stop();
   }
 
   static Future<void> reset() async {
-    await stop();
-    await playMenuMusic();
+    if (_isMuted) return;
+    await _player.stop();
+    await _player.resume();
+  }
+
+  static void setMute(bool muted) {
+    _isMuted = muted;
+    if (muted) _player.pause();
   }
 }
