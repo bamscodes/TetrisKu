@@ -1,12 +1,12 @@
-# Graph Report - tetris  (2026-05-12)
+# Graph Report - tetris  (2026-05-13)
 
 ## Corpus Check
-- 53 files · ~237,562 words
+- 53 files · ~240,835 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 475 nodes · 519 edges · 25 communities detected
-- Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 8 edges (avg confidence: 0.8)
+- 508 nodes · 560 edges · 25 communities detected
+- Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 8 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Community Hubs (Navigation)
@@ -37,10 +37,10 @@
 - [[_COMMUNITY_Community 24|Community 24]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `package:flutter/material.dart` - 18 edges
-2. `package:google_fonts/google_fonts.dart` - 8 edges
-3. `AppDelegate` - 6 edges
-4. `dart:math` - 6 edges
+1. `package:flutter/material.dart` - 19 edges
+2. `package:google_fonts/google_fonts.dart` - 9 edges
+3. `dart:math` - 7 edges
+4. `AppDelegate` - 6 edges
 5. `../tetris_game.dart` - 6 edges
 6. `Create()` - 6 edges
 7. `Destroy()` - 6 edges
@@ -64,51 +64,51 @@
 
 ### Community 0 - "Community 0"
 Cohesion: 0.02
-Nodes (115): Align, _AmbientParticles, _AmbientParticlesState, AnimatedBuilder, AnimatedContainer, _AnimatedLine, AnimatedOpacity, _AnimatedScoreCard (+107 more)
+Nodes (121): Align, _AmbientParticles, _AmbientParticlesState, AnimatedBuilder, AnimatedContainer, _AnimatedLine, AnimatedOpacity, _AnimatedScoreCard (+113 more)
 
 ### Community 1 - "Community 1"
 Cohesion: 0.05
-Nodes (41): BoardCard, _BoardCardState, build, Card, Column, Container, dispose, _handleSwipe (+33 more)
+Nodes (40): board_card.dart, AnimatedBuilder, BannerAdWidget, build, _buildStatsHUD, _buildTopHUD, Center, Container (+32 more)
 
 ### Community 2 - "Community 2"
-Cohesion: 0.07
-Nodes (28): build, MaterialApp, TetrisApp, HighScoreProvider, HighScoreService, of, Color, colorOf (+20 more)
+Cohesion: 0.05
+Nodes (35): build, MaterialApp, TetrisApp, Board, canPlace, clearLines, inBounds, isCellEmpty (+27 more)
 
 ### Community 3 - "Community 3"
+Cohesion: 0.06
+Nodes (31): build, Column, Container, HUDPanel, _HUDStat, SizedBox, _Badge, build (+23 more)
+
+### Community 4 - "Community 4"
+Cohesion: 0.08
+Nodes (23): HighScoreProvider, HighScoreService, of, Color, colorOf, copyWith, next, PieceBag (+15 more)
+
+### Community 5 - "Community 5"
 Cohesion: 0.11
 Nodes (19): RegisterPlugins(), FlutterWindow(), OnCreate(), Create(), Destroy(), EnableFullDpiSupportIfAvailable(), GetClientArea(), GetThisFromHandle() (+11 more)
 
-### Community 4 - "Community 4"
-Cohesion: 0.07
-Nodes (27): board_card.dart, BannerAdWidget, build, Container, dispose, Icon, initState, MoveLeftIntent (+19 more)
-
-### Community 5 - "Community 5"
-Cohesion: 0.07
-Nodes (26): BackdropFilter, build, _ConfettiPainter, _ConfettiParticle, Container, Dialog, _DialogButton, dispose (+18 more)
-
 ### Community 6 - "Community 6"
+Cohesion: 0.08
+Nodes (25): BackdropFilter, build, _ConfettiPainter, _ConfettiParticle, Container, Dialog, _DialogButton, dispose (+17 more)
+
+### Community 7 - "Community 7"
 Cohesion: 0.08
 Nodes (23): board.dart, _canMove, _computeGhost, continueFromGameOver, dispose, Function, gameOver, _gameTick (+15 more)
 
-### Community 7 - "Community 7"
+### Community 8 - "Community 8"
+Cohesion: 0.09
+Nodes (19): main, BannerAdWidget, _BannerAdWidgetState, build, Center, dispose, initState, SizedBox (+11 more)
+
+### Community 9 - "Community 9"
 Cohesion: 0.1
 Nodes (20): _ActionButton, build, _buildActionButtons, _buildDPad, _buildSystemButtons, Column, Container, _controlButton (+12 more)
 
-### Community 8 - "Community 8"
-Cohesion: 0.1
-Nodes (17): main, BannerAdWidget, _BannerAdWidgetState, build, dispose, initState, SizedBox, InterstitialAdWidget (+9 more)
-
-### Community 9 - "Community 9"
-Cohesion: 0.12
-Nodes (15): Board, canPlace, clearLines, inBounds, isCellEmpty, isTopOccupied, lockPiece, reset (+7 more)
-
 ### Community 10 - "Community 10"
-Cohesion: 0.12
-Nodes (15): _BoardPainter, build, Color, CustomPaint, dispose, _drawCell, initState, _onGameUpdate (+7 more)
+Cohesion: 0.11
+Nodes (18): BoardCard, _BoardCardState, build, Card, Column, Container, dispose, _handleSwipe (+10 more)
 
 ### Community 11 - "Community 11"
-Cohesion: 0.15
-Nodes (12): MusicManager, playMenuMusic, stop, dispose, _ensureInitialized, mute, playSound, SoundManager (+4 more)
+Cohesion: 0.11
+Nodes (17): MusicManager, playMenuMusic, stop, _BoardPainter, Color, dispose, _drawCell, _ensureInitialized (+9 more)
 
 ### Community 12 - "Community 12"
 Cohesion: 0.14
@@ -163,7 +163,7 @@ Cohesion: 1.0
 Nodes (1): Launch Screen Assets
 
 ## Knowledge Gaps
-- **330 isolated node(s):** `MainActivity`, `Intercept NOTIFY_DEBUGGER_ABOUT_RX_PAGES and touch the pages.`, `-registerWithRegistry`, `main`, `src/app.dart` (+325 more)
+- **362 isolated node(s):** `MainActivity`, `Intercept NOTIFY_DEBUGGER_ABOUT_RX_PAGES and touch the pages.`, `-registerWithRegistry`, `main`, `src/app.dart` (+357 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **Thin community `Community 14`** (7 nodes): `FlutterAppDelegate`, `AppDelegate.swift`, `AppDelegate.swift`, `AppDelegate`, `.application()`, `.applicationShouldTerminateAfterLastWindowClosed()`, `.applicationSupportsSecureRestorableState()`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
@@ -185,17 +185,17 @@ Nodes (1): Launch Screen Assets
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `package:flutter/material.dart` connect `Community 2` to `Community 0`, `Community 1`, `Community 4`, `Community 5`, `Community 6`, `Community 7`, `Community 8`, `Community 9`, `Community 10`?**
-  _High betweenness centrality (0.278) - this node is a cross-community bridge._
-- **Why does `dart:math` connect `Community 2` to `Community 0`, `Community 10`, `Community 5`, `Community 6`?**
+- **Why does `package:flutter/material.dart` connect `Community 2` to `Community 0`, `Community 1`, `Community 3`, `Community 4`, `Community 6`, `Community 7`, `Community 8`, `Community 9`, `Community 10`, `Community 11`?**
+  _High betweenness centrality (0.270) - this node is a cross-community bridge._
+- **Why does `package:google_fonts/google_fonts.dart` connect `Community 3` to `Community 0`, `Community 1`, `Community 6`, `Community 8`, `Community 9`, `Community 10`?**
+  _High betweenness centrality (0.068) - this node is a cross-community bridge._
+- **Why does `dart:math` connect `Community 4` to `Community 0`, `Community 2`, `Community 6`, `Community 7`, `Community 11`?**
   _High betweenness centrality (0.067) - this node is a cross-community bridge._
-- **Why does `package:google_fonts/google_fonts.dart` connect `Community 1` to `Community 0`, `Community 4`, `Community 5`, `Community 7`?**
-  _High betweenness centrality (0.063) - this node is a cross-community bridge._
 - **What connects `MainActivity`, `Intercept NOTIFY_DEBUGGER_ABOUT_RX_PAGES and touch the pages.`, `-registerWithRegistry` to the rest of the system?**
-  _330 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _362 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.02 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
   _Cohesion score 0.05 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**
-  _Cohesion score 0.07 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.05 - nodes in this community are weakly interconnected._

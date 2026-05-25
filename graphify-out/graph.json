@@ -414,7 +414,7 @@
       "source_file": "lib\\src\\board.dart",
       "source_location": null,
       "id": "lib_src_board_dart",
-      "community": 9,
+      "community": 2,
       "norm_label": "board.dart"
     },
     {
@@ -423,7 +423,7 @@
       "source_file": "lib\\src\\board.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_board_dart_board",
-      "community": 9,
+      "community": 2,
       "norm_label": "board"
     },
     {
@@ -432,7 +432,7 @@
       "source_file": "lib\\src\\board.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_board_dart_inbounds",
-      "community": 9,
+      "community": 2,
       "norm_label": "inbounds"
     },
     {
@@ -441,7 +441,7 @@
       "source_file": "lib\\src\\board.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_board_dart_iscellempty",
-      "community": 9,
+      "community": 2,
       "norm_label": "iscellempty"
     },
     {
@@ -450,7 +450,7 @@
       "source_file": "lib\\src\\board.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_board_dart_canplace",
-      "community": 9,
+      "community": 2,
       "norm_label": "canplace"
     },
     {
@@ -459,7 +459,7 @@
       "source_file": "lib\\src\\board.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_board_dart_lockpiece",
-      "community": 9,
+      "community": 2,
       "norm_label": "lockpiece"
     },
     {
@@ -468,7 +468,7 @@
       "source_file": "lib\\src\\board.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_board_dart_clearlines",
-      "community": 9,
+      "community": 2,
       "norm_label": "clearlines"
     },
     {
@@ -477,7 +477,7 @@
       "source_file": "lib\\src\\board.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_board_dart_reset",
-      "community": 9,
+      "community": 2,
       "norm_label": "reset"
     },
     {
@@ -486,7 +486,7 @@
       "source_file": "lib\\src\\board.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_board_dart_istopoccupied",
-      "community": 9,
+      "community": 2,
       "norm_label": "istopoccupied"
     },
     {
@@ -495,7 +495,7 @@
       "source_file": "lib\\src\\widgets\\tetris_board.dart",
       "source_location": null,
       "id": "tetromino_dart",
-      "community": 9,
+      "community": 2,
       "norm_label": "../tetromino.dart"
     },
     {
@@ -504,7 +504,7 @@
       "source_file": "lib\\src\\tetris_game.dart",
       "source_location": null,
       "id": "lib_src_tetris_game_dart",
-      "community": 6,
+      "community": 7,
       "norm_label": "tetris_game.dart"
     },
     {
@@ -513,7 +513,7 @@
       "source_file": "lib\\src\\tetris_game.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_tetris_game_dart_tetrisgame",
-      "community": 6,
+      "community": 7,
       "norm_label": "tetrisgame"
     },
     {
@@ -522,7 +522,7 @@
       "source_file": "lib\\src\\tetris_game.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_tetris_game_dart_function",
-      "community": 6,
+      "community": 7,
       "norm_label": "function"
     },
     {
@@ -531,7 +531,7 @@
       "source_file": "lib\\src\\tetris_game.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_tetris_game_dart_start",
-      "community": 6,
+      "community": 7,
       "norm_label": "start"
     },
     {
@@ -540,7 +540,7 @@
       "source_file": "lib\\src\\tetris_game.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_tetris_game_dart_reset",
-      "community": 6,
+      "community": 7,
       "norm_label": "reset"
     },
     {
@@ -549,7 +549,7 @@
       "source_file": "lib\\src\\tetris_game.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_tetris_game_dart_gameover",
-      "community": 6,
+      "community": 7,
       "norm_label": "gameover"
     },
     {
@@ -558,7 +558,7 @@
       "source_file": "lib\\src\\tetris_game.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_tetris_game_dart_dispose",
-      "community": 6,
+      "community": 7,
       "norm_label": "dispose"
     },
     {
@@ -567,7 +567,7 @@
       "source_file": "lib\\src\\tetris_game.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_tetris_game_dart_safenotify",
-      "community": 6,
+      "community": 7,
       "norm_label": "_safenotify"
     },
     {
@@ -576,7 +576,7 @@
       "source_file": "lib\\src\\tetris_game.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_tetris_game_dart_scheduletick",
-      "community": 6,
+      "community": 7,
       "norm_label": "_scheduletick"
     },
     {
@@ -585,7 +585,7 @@
       "source_file": "lib\\src\\tetris_game.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_tetris_game_dart_spawnnew",
-      "community": 6,
+      "community": 7,
       "norm_label": "_spawnnew"
     },
     {
@@ -594,7 +594,7 @@
       "source_file": "lib\\src\\tetris_game.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_tetris_game_dart_hold",
-      "community": 6,
+      "community": 7,
       "norm_label": "hold"
     },
     {
@@ -603,7 +603,7 @@
       "source_file": "lib\\src\\tetris_game.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_tetris_game_dart_computeghost",
-      "community": 6,
+      "community": 7,
       "norm_label": "_computeghost"
     },
     {
@@ -612,7 +612,7 @@
       "source_file": "lib\\src\\tetris_game.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_tetris_game_dart_canmove",
-      "community": 6,
+      "community": 7,
       "norm_label": "_canmove"
     },
     {
@@ -621,7 +621,7 @@
       "source_file": "lib\\src\\tetris_game.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_tetris_game_dart_lock",
-      "community": 6,
+      "community": 7,
       "norm_label": "_lock"
     },
     {
@@ -630,7 +630,7 @@
       "source_file": "lib\\src\\tetris_game.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_tetris_game_dart_gametick",
-      "community": 6,
+      "community": 7,
       "norm_label": "_gametick"
     },
     {
@@ -639,7 +639,7 @@
       "source_file": "lib\\src\\tetris_game.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_tetris_game_dart_moveleft",
-      "community": 6,
+      "community": 7,
       "norm_label": "moveleft"
     },
     {
@@ -648,7 +648,7 @@
       "source_file": "lib\\src\\tetris_game.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_tetris_game_dart_moveright",
-      "community": 6,
+      "community": 7,
       "norm_label": "moveright"
     },
     {
@@ -657,7 +657,7 @@
       "source_file": "lib\\src\\tetris_game.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_tetris_game_dart_softdrop",
-      "community": 6,
+      "community": 7,
       "norm_label": "softdrop"
     },
     {
@@ -666,7 +666,7 @@
       "source_file": "lib\\src\\tetris_game.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_tetris_game_dart_harddrop",
-      "community": 6,
+      "community": 7,
       "norm_label": "harddrop"
     },
     {
@@ -675,7 +675,7 @@
       "source_file": "lib\\src\\tetris_game.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_tetris_game_dart_rotate",
-      "community": 6,
+      "community": 7,
       "norm_label": "rotate"
     },
     {
@@ -684,7 +684,7 @@
       "source_file": "test\\improvements_test.dart",
       "source_location": null,
       "id": "dart_math",
-      "community": 2,
+      "community": 4,
       "norm_label": "dart:math"
     },
     {
@@ -693,7 +693,7 @@
       "source_file": "lib\\src\\tetris_game.dart",
       "source_location": null,
       "id": "board_dart",
-      "community": 6,
+      "community": 7,
       "norm_label": "board.dart"
     },
     {
@@ -702,7 +702,7 @@
       "source_file": "lib\\src\\game\\game_over_dialog.dart",
       "source_location": null,
       "id": "services_sound_manager_dart",
-      "community": 6,
+      "community": 7,
       "norm_label": "../services/sound_manager.dart"
     },
     {
@@ -711,7 +711,7 @@
       "source_file": "lib\\src\\tetromino.dart",
       "source_location": null,
       "id": "lib_src_tetromino_dart",
-      "community": 2,
+      "community": 4,
       "norm_label": "tetromino.dart"
     },
     {
@@ -720,7 +720,7 @@
       "source_file": "lib\\src\\tetromino.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_tetromino_dart_tetromino",
-      "community": 2,
+      "community": 4,
       "norm_label": "tetromino"
     },
     {
@@ -729,7 +729,7 @@
       "source_file": "lib\\src\\tetromino.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_tetromino_dart_piecebag",
-      "community": 2,
+      "community": 4,
       "norm_label": "piecebag"
     },
     {
@@ -738,7 +738,7 @@
       "source_file": "lib\\src\\tetromino.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_tetromino_dart_copywith",
-      "community": 2,
+      "community": 4,
       "norm_label": "copywith"
     },
     {
@@ -747,7 +747,7 @@
       "source_file": "lib\\src\\tetromino.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_tetromino_dart_colorof",
-      "community": 2,
+      "community": 4,
       "norm_label": "colorof"
     },
     {
@@ -756,7 +756,7 @@
       "source_file": "lib\\src\\tetromino.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_tetromino_dart_color",
-      "community": 2,
+      "community": 4,
       "norm_label": "color"
     },
     {
@@ -765,7 +765,7 @@
       "source_file": "lib\\src\\tetromino.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_tetromino_dart_rotatedcw",
-      "community": 2,
+      "community": 4,
       "norm_label": "rotatedcw"
     },
     {
@@ -774,7 +774,7 @@
       "source_file": "lib\\src\\tetromino.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_tetromino_dart_next",
-      "community": 2,
+      "community": 4,
       "norm_label": "next"
     },
     {
@@ -783,7 +783,7 @@
       "source_file": "lib\\src\\tetromino.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_tetromino_dart_randompiece",
-      "community": 2,
+      "community": 4,
       "norm_label": "randompiece"
     },
     {
@@ -792,7 +792,7 @@
       "source_file": "lib\\src\\game\\board_card.dart",
       "source_location": null,
       "id": "lib_src_game_board_card_dart",
-      "community": 1,
+      "community": 10,
       "norm_label": "board_card.dart"
     },
     {
@@ -801,7 +801,7 @@
       "source_file": "lib\\src\\game\\board_card.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_game_board_card_dart_boardcard",
-      "community": 1,
+      "community": 10,
       "norm_label": "boardcard"
     },
     {
@@ -810,8 +810,17 @@
       "source_file": "lib\\src\\game\\board_card.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_game_board_card_dart_boardcardstate",
-      "community": 1,
+      "community": 10,
       "norm_label": "_boardcardstate"
+    },
+    {
+      "label": "_StatusText",
+      "file_type": "code",
+      "source_file": "lib\\src\\game\\board_card.dart",
+      "source_location": null,
+      "id": "d_project_google_play_tetris_lib_src_game_board_card_dart_statustext",
+      "community": 10,
+      "norm_label": "_statustext"
     },
     {
       "label": "_HUDOverlay",
@@ -819,7 +828,7 @@
       "source_file": "lib\\src\\game\\board_card.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_game_board_card_dart_hudoverlay",
-      "community": 1,
+      "community": 10,
       "norm_label": "_hudoverlay"
     },
     {
@@ -828,7 +837,7 @@
       "source_file": "lib\\src\\game\\board_card.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_game_board_card_dart_stattext",
-      "community": 1,
+      "community": 10,
       "norm_label": "_stattext"
     },
     {
@@ -837,7 +846,7 @@
       "source_file": "lib\\src\\game\\board_card.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_game_board_card_dart_initstate",
-      "community": 1,
+      "community": 10,
       "norm_label": "initstate"
     },
     {
@@ -846,7 +855,7 @@
       "source_file": "lib\\src\\game\\board_card.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_game_board_card_dart_ongameupdate",
-      "community": 1,
+      "community": 10,
       "norm_label": "_ongameupdate"
     },
     {
@@ -855,7 +864,7 @@
       "source_file": "lib\\src\\game\\board_card.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_game_board_card_dart_showcombo",
-      "community": 1,
+      "community": 10,
       "norm_label": "_showcombo"
     },
     {
@@ -864,7 +873,7 @@
       "source_file": "lib\\src\\game\\board_card.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_game_board_card_dart_handleswipe",
-      "community": 1,
+      "community": 10,
       "norm_label": "_handleswipe"
     },
     {
@@ -873,7 +882,7 @@
       "source_file": "lib\\src\\game\\board_card.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_game_board_card_dart_dispose",
-      "community": 1,
+      "community": 10,
       "norm_label": "dispose"
     },
     {
@@ -882,7 +891,7 @@
       "source_file": "lib\\src\\game\\board_card.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_game_board_card_dart_build",
-      "community": 1,
+      "community": 10,
       "norm_label": "build"
     },
     {
@@ -891,17 +900,17 @@
       "source_file": "lib\\src\\game\\board_card.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_game_board_card_dart_card",
-      "community": 1,
+      "community": 10,
       "norm_label": "card"
     },
     {
-      "label": "SizedBox",
+      "label": "Text",
       "file_type": "code",
       "source_file": "lib\\src\\game\\board_card.dart",
       "source_location": null,
-      "id": "d_project_google_play_tetris_lib_src_game_board_card_dart_sizedbox",
-      "community": 1,
-      "norm_label": "sizedbox"
+      "id": "d_project_google_play_tetris_lib_src_game_board_card_dart_text",
+      "community": 10,
+      "norm_label": "text"
     },
     {
       "label": "Container",
@@ -909,7 +918,7 @@
       "source_file": "lib\\src\\game\\board_card.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_game_board_card_dart_container",
-      "community": 1,
+      "community": 10,
       "norm_label": "container"
     },
     {
@@ -918,16 +927,16 @@
       "source_file": "lib\\src\\game\\board_card.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_game_board_card_dart_column",
-      "community": 1,
+      "community": 10,
       "norm_label": "column"
     },
     {
       "label": "package:google_fonts/google_fonts.dart",
       "file_type": "code",
-      "source_file": "lib\\src\\menu\\main_menu.dart",
+      "source_file": "lib\\src\\widgets\\banner_ad_widget.dart",
       "source_location": null,
       "id": "package_google_fonts_google_fonts_dart",
-      "community": 1,
+      "community": 3,
       "norm_label": "package:google_fonts/google_fonts.dart"
     },
     {
@@ -936,7 +945,7 @@
       "source_file": "lib\\src\\widgets\\tetris_board.dart",
       "source_location": null,
       "id": "tetris_game_dart",
-      "community": 1,
+      "community": 3,
       "norm_label": "../tetris_game.dart"
     },
     {
@@ -945,16 +954,16 @@
       "source_file": "lib\\src\\game\\board_card.dart",
       "source_location": null,
       "id": "widgets_tetris_board_dart",
-      "community": 1,
+      "community": 10,
       "norm_label": "../widgets/tetris_board.dart"
     },
     {
       "label": "../widgets/next_piece_preview.dart",
       "file_type": "code",
-      "source_file": "lib\\src\\game\\board_card.dart",
+      "source_file": "lib\\src\\game\\tetris_home.dart",
       "source_location": null,
       "id": "widgets_next_piece_preview_dart",
-      "community": 1,
+      "community": 3,
       "norm_label": "../widgets/next_piece_preview.dart"
     },
     {
@@ -963,7 +972,7 @@
       "source_file": "lib\\src\\game\\game_over_dialog.dart",
       "source_location": null,
       "id": "lib_src_game_game_over_dialog_dart",
-      "community": 5,
+      "community": 6,
       "norm_label": "game_over_dialog.dart"
     },
     {
@@ -972,7 +981,7 @@
       "source_file": "lib\\src\\game\\game_over_dialog.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_game_game_over_dialog_dart_gameoverdialog",
-      "community": 5,
+      "community": 6,
       "norm_label": "gameoverdialog"
     },
     {
@@ -981,7 +990,7 @@
       "source_file": "lib\\src\\game\\game_over_dialog.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_game_game_over_dialog_dart_gameoverdialogstate",
-      "community": 5,
+      "community": 6,
       "norm_label": "_gameoverdialogstate"
     },
     {
@@ -990,7 +999,7 @@
       "source_file": "lib\\src\\game\\game_over_dialog.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_game_game_over_dialog_dart_pulseicon",
-      "community": 5,
+      "community": 6,
       "norm_label": "_pulseicon"
     },
     {
@@ -999,7 +1008,7 @@
       "source_file": "lib\\src\\game\\game_over_dialog.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_game_game_over_dialog_dart_pulseiconstate",
-      "community": 5,
+      "community": 6,
       "norm_label": "_pulseiconstate"
     },
     {
@@ -1008,7 +1017,7 @@
       "source_file": "lib\\src\\game\\game_over_dialog.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_game_game_over_dialog_dart_highscorebadge",
-      "community": 5,
+      "community": 6,
       "norm_label": "_highscorebadge"
     },
     {
@@ -1017,7 +1026,7 @@
       "source_file": "lib\\src\\game\\game_over_dialog.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_game_game_over_dialog_dart_dialogbutton",
-      "community": 5,
+      "community": 6,
       "norm_label": "_dialogbutton"
     },
     {
@@ -1026,7 +1035,7 @@
       "source_file": "lib\\src\\game\\game_over_dialog.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_game_game_over_dialog_dart_confettiparticle",
-      "community": 5,
+      "community": 6,
       "norm_label": "_confettiparticle"
     },
     {
@@ -1035,7 +1044,7 @@
       "source_file": "lib\\src\\game\\game_over_dialog.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_game_game_over_dialog_dart_confettipainter",
-      "community": 5,
+      "community": 6,
       "norm_label": "_confettipainter"
     },
     {
@@ -1044,7 +1053,7 @@
       "source_file": "lib\\src\\game\\game_over_dialog.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_game_game_over_dialog_dart_statcard",
-      "community": 5,
+      "community": 6,
       "norm_label": "_statcard"
     },
     {
@@ -1053,7 +1062,7 @@
       "source_file": "lib\\src\\game\\game_over_dialog.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_game_game_over_dialog_dart_initstate",
-      "community": 5,
+      "community": 6,
       "norm_label": "initstate"
     },
     {
@@ -1062,7 +1071,7 @@
       "source_file": "lib\\src\\game\\game_over_dialog.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_game_game_over_dialog_dart_spawnparticles",
-      "community": 5,
+      "community": 6,
       "norm_label": "_spawnparticles"
     },
     {
@@ -1071,7 +1080,7 @@
       "source_file": "lib\\src\\game\\game_over_dialog.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_game_game_over_dialog_dart_dispose",
-      "community": 5,
+      "community": 6,
       "norm_label": "dispose"
     },
     {
@@ -1080,7 +1089,7 @@
       "source_file": "lib\\src\\game\\game_over_dialog.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_game_game_over_dialog_dart_build",
-      "community": 5,
+      "community": 6,
       "norm_label": "build"
     },
     {
@@ -1089,7 +1098,7 @@
       "source_file": "lib\\src\\game\\game_over_dialog.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_game_game_over_dialog_dart_backdropfilter",
-      "community": 5,
+      "community": 6,
       "norm_label": "backdropfilter"
     },
     {
@@ -1098,7 +1107,7 @@
       "source_file": "lib\\src\\game\\game_over_dialog.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_game_game_over_dialog_dart_sizedbox",
-      "community": 5,
+      "community": 6,
       "norm_label": "sizedbox"
     },
     {
@@ -1107,7 +1116,7 @@
       "source_file": "lib\\src\\game\\game_over_dialog.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_game_game_over_dialog_dart_shadow",
-      "community": 5,
+      "community": 6,
       "norm_label": "shadow"
     },
     {
@@ -1116,7 +1125,7 @@
       "source_file": "lib\\src\\game\\game_over_dialog.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_game_game_over_dialog_dart_wrap",
-      "community": 5,
+      "community": 6,
       "norm_label": "wrap"
     },
     {
@@ -1125,7 +1134,7 @@
       "source_file": "lib\\src\\game\\game_over_dialog.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_game_game_over_dialog_dart_scaletransition",
-      "community": 5,
+      "community": 6,
       "norm_label": "scaletransition"
     },
     {
@@ -1134,7 +1143,7 @@
       "source_file": "lib\\src\\game\\game_over_dialog.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_game_game_over_dialog_dart_container",
-      "community": 5,
+      "community": 6,
       "norm_label": "container"
     },
     {
@@ -1143,7 +1152,7 @@
       "source_file": "lib\\src\\game\\game_over_dialog.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_game_game_over_dialog_dart_icon",
-      "community": 5,
+      "community": 6,
       "norm_label": "icon"
     },
     {
@@ -1152,7 +1161,7 @@
       "source_file": "lib\\src\\game\\game_over_dialog.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_game_game_over_dialog_dart_update",
-      "community": 5,
+      "community": 6,
       "norm_label": "update"
     },
     {
@@ -1161,7 +1170,7 @@
       "source_file": "lib\\src\\game\\game_over_dialog.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_game_game_over_dialog_dart_paint",
-      "community": 5,
+      "community": 6,
       "norm_label": "paint"
     },
     {
@@ -1170,16 +1179,16 @@
       "source_file": "lib\\src\\game\\game_over_dialog.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_game_game_over_dialog_dart_shouldrepaint",
-      "community": 5,
+      "community": 6,
       "norm_label": "shouldrepaint"
     },
     {
       "label": "dart:ui",
       "file_type": "code",
-      "source_file": "lib\\src\\game\\game_over_dialog.dart",
+      "source_file": "lib\\src\\widgets\\banner_ad_widget.dart",
       "source_location": null,
       "id": "dart_ui",
-      "community": 5,
+      "community": 8,
       "norm_label": "dart:ui"
     },
     {
@@ -1188,7 +1197,7 @@
       "source_file": "lib\\src\\game\\info_panel.dart",
       "source_location": null,
       "id": "lib_src_game_info_panel_dart",
-      "community": 1,
+      "community": 3,
       "norm_label": "info_panel.dart"
     },
     {
@@ -1197,8 +1206,53 @@
       "source_file": "lib\\src\\game\\info_panel.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_game_info_panel_dart_infopanel",
-      "community": 1,
+      "community": 3,
       "norm_label": "infopanel"
+    },
+    {
+      "label": "_InfoPanelState",
+      "file_type": "code",
+      "source_file": "lib\\src\\game\\info_panel.dart",
+      "source_location": null,
+      "id": "d_project_google_play_tetris_lib_src_game_info_panel_dart_infopanelstate",
+      "community": 3,
+      "norm_label": "_infopanelstate"
+    },
+    {
+      "label": "_WireframePainter",
+      "file_type": "code",
+      "source_file": "lib\\src\\game\\info_panel.dart",
+      "source_location": null,
+      "id": "d_project_google_play_tetris_lib_src_game_info_panel_dart_wireframepainter",
+      "community": 3,
+      "norm_label": "_wireframepainter"
+    },
+    {
+      "label": "_HUDFramePainter",
+      "file_type": "code",
+      "source_file": "lib\\src\\game\\info_panel.dart",
+      "source_location": null,
+      "id": "d_project_google_play_tetris_lib_src_game_info_panel_dart_hudframepainter",
+      "community": 3,
+      "norm_label": "_hudframepainter"
+    },
+    {
+      "label": "initState",
+      "file_type": "code",
+      "source_file": "lib\\src\\game\\info_panel.dart",
+      "source_location": null,
+      "id": "d_project_google_play_tetris_lib_src_game_info_panel_dart_initstate",
+      "community": 3,
+      "norm_label": "initstate"
+    },
+    {
+      "label": "dispose",
+      "file_type": "code",
+      "source_file": "lib\\src\\game\\info_panel.dart",
+      "source_location": null,
+      "id": "d_project_google_play_tetris_lib_src_game_info_panel_dart_dispose",
+      "community": 3,
+      "norm_label": "dispose"
     },
     {
       "label": "build",
@@ -1206,7 +1260,7 @@
       "source_file": "lib\\src\\game\\info_panel.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_game_info_panel_dart_build",
-      "community": 1,
+      "community": 3,
       "norm_label": "build"
     },
     {
@@ -1215,7 +1269,7 @@
       "source_file": "lib\\src\\game\\info_panel.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_game_info_panel_dart_container",
-      "community": 1,
+      "community": 3,
       "norm_label": "container"
     },
     {
@@ -1224,7 +1278,7 @@
       "source_file": "lib\\src\\game\\info_panel.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_game_info_panel_dart_sizedbox",
-      "community": 1,
+      "community": 3,
       "norm_label": "sizedbox"
     },
     {
@@ -1233,8 +1287,35 @@
       "source_file": "lib\\src\\game\\info_panel.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_game_info_panel_dart_spacer",
-      "community": 1,
+      "community": 3,
       "norm_label": "spacer"
+    },
+    {
+      "label": "Padding",
+      "file_type": "code",
+      "source_file": "lib\\src\\game\\info_panel.dart",
+      "source_location": null,
+      "id": "d_project_google_play_tetris_lib_src_game_info_panel_dart_padding",
+      "community": 3,
+      "norm_label": "padding"
+    },
+    {
+      "label": "paint",
+      "file_type": "code",
+      "source_file": "lib\\src\\game\\info_panel.dart",
+      "source_location": null,
+      "id": "d_project_google_play_tetris_lib_src_game_info_panel_dart_paint",
+      "community": 3,
+      "norm_label": "paint"
+    },
+    {
+      "label": "shouldRepaint",
+      "file_type": "code",
+      "source_file": "lib\\src\\game\\info_panel.dart",
+      "source_location": null,
+      "id": "d_project_google_play_tetris_lib_src_game_info_panel_dart_shouldrepaint",
+      "community": 3,
+      "norm_label": "shouldrepaint"
     },
     {
       "label": "intents.dart",
@@ -1305,7 +1386,7 @@
       "source_file": "lib\\src\\game\\tetris_home.dart",
       "source_location": null,
       "id": "lib_src_game_tetris_home_dart",
-      "community": 4,
+      "community": 1,
       "norm_label": "tetris_home.dart"
     },
     {
@@ -1314,7 +1395,7 @@
       "source_file": "lib\\src\\game\\tetris_home.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_tetrishome",
-      "community": 4,
+      "community": 1,
       "norm_label": "tetrishome"
     },
     {
@@ -1323,8 +1404,35 @@
       "source_file": "lib\\src\\game\\tetris_home.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_tetrishomestate",
-      "community": 4,
+      "community": 1,
       "norm_label": "_tetrishomestate"
+    },
+    {
+      "label": "_HUDBox",
+      "file_type": "code",
+      "source_file": "lib\\src\\game\\tetris_home.dart",
+      "source_location": null,
+      "id": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_hudbox",
+      "community": 1,
+      "norm_label": "_hudbox"
+    },
+    {
+      "label": "_InlineStat",
+      "file_type": "code",
+      "source_file": "lib\\src\\game\\tetris_home.dart",
+      "source_location": null,
+      "id": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_inlinestat",
+      "community": 1,
+      "norm_label": "_inlinestat"
+    },
+    {
+      "label": "_StatusText",
+      "file_type": "code",
+      "source_file": "lib\\src\\game\\tetris_home.dart",
+      "source_location": null,
+      "id": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_statustext",
+      "community": 1,
+      "norm_label": "_statustext"
     },
     {
       "label": "initState",
@@ -1332,7 +1440,7 @@
       "source_file": "lib\\src\\game\\tetris_home.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_initstate",
-      "community": 4,
+      "community": 1,
       "norm_label": "initstate"
     },
     {
@@ -1341,7 +1449,7 @@
       "source_file": "lib\\src\\game\\tetris_home.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_startcountdown",
-      "community": 4,
+      "community": 1,
       "norm_label": "_startcountdown"
     },
     {
@@ -1350,7 +1458,7 @@
       "source_file": "lib\\src\\game\\tetris_home.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_dispose",
-      "community": 4,
+      "community": 1,
       "norm_label": "dispose"
     },
     {
@@ -1359,7 +1467,7 @@
       "source_file": "lib\\src\\game\\tetris_home.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_showgameoverdialog",
-      "community": 4,
+      "community": 1,
       "norm_label": "_showgameoverdialog"
     },
     {
@@ -1368,7 +1476,7 @@
       "source_file": "lib\\src\\game\\tetris_home.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_build",
-      "community": 4,
+      "community": 1,
       "norm_label": "build"
     },
     {
@@ -1377,7 +1485,7 @@
       "source_file": "lib\\src\\game\\tetris_home.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_popscope",
-      "community": 4,
+      "community": 1,
       "norm_label": "popscope"
     },
     {
@@ -1386,7 +1494,7 @@
       "source_file": "lib\\src\\game\\tetris_home.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_moveleftintent",
-      "community": 4,
+      "community": 1,
       "norm_label": "moveleftintent"
     },
     {
@@ -1395,7 +1503,7 @@
       "source_file": "lib\\src\\game\\tetris_home.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_moverightintent",
-      "community": 4,
+      "community": 1,
       "norm_label": "moverightintent"
     },
     {
@@ -1404,8 +1512,26 @@
       "source_file": "lib\\src\\game\\tetris_home.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_softdropintent",
-      "community": 4,
+      "community": 1,
       "norm_label": "softdropintent"
+    },
+    {
+      "label": "RotateIntent",
+      "file_type": "code",
+      "source_file": "lib\\src\\game\\tetris_home.dart",
+      "source_location": null,
+      "id": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_rotateintent",
+      "community": 1,
+      "norm_label": "rotateintent"
+    },
+    {
+      "label": "HardDropIntent",
+      "file_type": "code",
+      "source_file": "lib\\src\\game\\tetris_home.dart",
+      "source_location": null,
+      "id": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_harddropintent",
+      "community": 1,
+      "norm_label": "harddropintent"
     },
     {
       "label": "Padding",
@@ -1413,7 +1539,7 @@
       "source_file": "lib\\src\\game\\tetris_home.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_padding",
-      "community": 4,
+      "community": 1,
       "norm_label": "padding"
     },
     {
@@ -1422,8 +1548,17 @@
       "source_file": "lib\\src\\game\\tetris_home.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_sizedbox",
-      "community": 4,
+      "community": 1,
       "norm_label": "sizedbox"
+    },
+    {
+      "label": "Center",
+      "file_type": "code",
+      "source_file": "lib\\src\\game\\tetris_home.dart",
+      "source_location": null,
+      "id": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_center",
+      "community": 1,
+      "norm_label": "center"
     },
     {
       "label": "BannerAdWidget",
@@ -1431,8 +1566,80 @@
       "source_file": "lib\\src\\game\\tetris_home.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_banneradwidget",
-      "community": 4,
+      "community": 1,
       "norm_label": "banneradwidget"
+    },
+    {
+      "label": "_buildTopHUD",
+      "file_type": "code",
+      "source_file": "lib\\src\\game\\tetris_home.dart",
+      "source_location": null,
+      "id": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_buildtophud",
+      "community": 1,
+      "norm_label": "_buildtophud"
+    },
+    {
+      "label": "AnimatedBuilder",
+      "file_type": "code",
+      "source_file": "lib\\src\\game\\tetris_home.dart",
+      "source_location": null,
+      "id": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_animatedbuilder",
+      "community": 1,
+      "norm_label": "animatedbuilder"
+    },
+    {
+      "label": "Icon",
+      "file_type": "code",
+      "source_file": "lib\\src\\game\\tetris_home.dart",
+      "source_location": null,
+      "id": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_icon",
+      "community": 1,
+      "norm_label": "icon"
+    },
+    {
+      "label": "_buildStatsHUD",
+      "file_type": "code",
+      "source_file": "lib\\src\\game\\tetris_home.dart",
+      "source_location": null,
+      "id": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_buildstatshud",
+      "community": 1,
+      "norm_label": "_buildstatshud"
+    },
+    {
+      "label": "Divider",
+      "file_type": "code",
+      "source_file": "lib\\src\\game\\tetris_home.dart",
+      "source_location": null,
+      "id": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_divider",
+      "community": 1,
+      "norm_label": "divider"
+    },
+    {
+      "label": "Container",
+      "file_type": "code",
+      "source_file": "lib\\src\\game\\tetris_home.dart",
+      "source_location": null,
+      "id": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_container",
+      "community": 1,
+      "norm_label": "container"
+    },
+    {
+      "label": "Row",
+      "file_type": "code",
+      "source_file": "lib\\src\\game\\tetris_home.dart",
+      "source_location": null,
+      "id": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_row",
+      "community": 1,
+      "norm_label": "row"
+    },
+    {
+      "label": "Text",
+      "file_type": "code",
+      "source_file": "lib\\src\\game\\tetris_home.dart",
+      "source_location": null,
+      "id": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_text",
+      "community": 1,
+      "norm_label": "text"
     },
     {
       "label": "../../music_manager.dart",
@@ -1440,7 +1647,7 @@
       "source_file": "lib\\src\\menu\\main_menu.dart",
       "source_location": null,
       "id": "music_manager_dart",
-      "community": 4,
+      "community": 1,
       "norm_label": "../../music_manager.dart"
     },
     {
@@ -1449,7 +1656,7 @@
       "source_file": "lib\\src\\game\\tetris_home.dart",
       "source_location": null,
       "id": "widgets_control_panel_dart",
-      "community": 4,
+      "community": 1,
       "norm_label": "../widgets/control_panel.dart"
     },
     {
@@ -1458,7 +1665,7 @@
       "source_file": "lib\\src\\game\\tetris_home.dart",
       "source_location": null,
       "id": "widgets_banner_ad_widget_dart",
-      "community": 4,
+      "community": 1,
       "norm_label": "../widgets/banner_ad_widget.dart"
     },
     {
@@ -1467,7 +1674,7 @@
       "source_file": "lib\\src\\game\\tetris_home.dart",
       "source_location": null,
       "id": "widgets_interstitial_ad_widget_dart",
-      "community": 4,
+      "community": 1,
       "norm_label": "../widgets/interstitial_ad_widget.dart"
     },
     {
@@ -1476,7 +1683,7 @@
       "source_file": "lib\\src\\game\\tetris_home.dart",
       "source_location": null,
       "id": "info_panel_dart",
-      "community": 4,
+      "community": 1,
       "norm_label": "info_panel.dart"
     },
     {
@@ -1485,7 +1692,7 @@
       "source_file": "lib\\src\\game\\tetris_home.dart",
       "source_location": null,
       "id": "board_card_dart",
-      "community": 4,
+      "community": 1,
       "norm_label": "board_card.dart"
     },
     {
@@ -1494,7 +1701,7 @@
       "source_file": "lib\\src\\game\\tetris_home.dart",
       "source_location": null,
       "id": "game_over_dialog_dart",
-      "community": 4,
+      "community": 1,
       "norm_label": "game_over_dialog.dart"
     },
     {
@@ -1503,7 +1710,7 @@
       "source_file": "lib\\src\\game\\tetris_home.dart",
       "source_location": null,
       "id": "intents_dart",
-      "community": 4,
+      "community": 1,
       "norm_label": "intents.dart"
     },
     {
@@ -1512,7 +1719,7 @@
       "source_file": "lib\\src\\menu\\main_menu.dart",
       "source_location": null,
       "id": "services_high_score_service_dart",
-      "community": 4,
+      "community": 1,
       "norm_label": "../services/high_score_service.dart"
     },
     {
@@ -1543,6 +1750,24 @@
       "norm_label": "_mainmenustate"
     },
     {
+      "label": "_DustParticle",
+      "file_type": "code",
+      "source_file": "lib\\src\\menu\\main_menu.dart",
+      "source_location": null,
+      "id": "d_project_google_play_tetris_lib_src_menu_main_menu_dart_dustparticle",
+      "community": 0,
+      "norm_label": "_dustparticle"
+    },
+    {
+      "label": "_DigitalDustPainter",
+      "file_type": "code",
+      "source_file": "lib\\src\\menu\\main_menu.dart",
+      "source_location": null,
+      "id": "d_project_google_play_tetris_lib_src_menu_main_menu_dart_digitaldustpainter",
+      "community": 0,
+      "norm_label": "_digitaldustpainter"
+    },
+    {
       "label": "_FallingPiece",
       "file_type": "code",
       "source_file": "lib\\src\\menu\\main_menu.dart",
@@ -1568,6 +1793,15 @@
       "id": "d_project_google_play_tetris_lib_src_menu_main_menu_dart_hudbox",
       "community": 0,
       "norm_label": "_hudbox"
+    },
+    {
+      "label": "_HUDFramePainter",
+      "file_type": "code",
+      "source_file": "lib\\src\\menu\\main_menu.dart",
+      "source_location": null,
+      "id": "d_project_google_play_tetris_lib_src_menu_main_menu_dart_hudframepainter",
+      "community": 0,
+      "norm_label": "_hudframepainter"
     },
     {
       "label": "_MenuPillButton",
@@ -1604,6 +1838,24 @@
       "id": "d_project_google_play_tetris_lib_src_menu_main_menu_dart_initstate",
       "community": 0,
       "norm_label": "initstate"
+    },
+    {
+      "label": "_loadBannerAd",
+      "file_type": "code",
+      "source_file": "lib\\src\\menu\\main_menu.dart",
+      "source_location": null,
+      "id": "d_project_google_play_tetris_lib_src_menu_main_menu_dart_loadbannerad",
+      "community": 0,
+      "norm_label": "_loadbannerad"
+    },
+    {
+      "label": "_startGlitchTimer",
+      "file_type": "code",
+      "source_file": "lib\\src\\menu\\main_menu.dart",
+      "source_location": null,
+      "id": "d_project_google_play_tetris_lib_src_menu_main_menu_dart_startglitchtimer",
+      "community": 0,
+      "norm_label": "_startglitchtimer"
     },
     {
       "label": "dispose",
@@ -1660,6 +1912,15 @@
       "norm_label": "spacer"
     },
     {
+      "label": "Icon",
+      "file_type": "code",
+      "source_file": "lib\\src\\menu\\main_menu.dart",
+      "source_location": null,
+      "id": "d_project_google_play_tetris_lib_src_menu_main_menu_dart_icon",
+      "community": 0,
+      "norm_label": "icon"
+    },
+    {
       "label": "SizedBox",
       "file_type": "code",
       "source_file": "lib\\src\\menu\\main_menu.dart",
@@ -1667,6 +1928,24 @@
       "id": "d_project_google_play_tetris_lib_src_menu_main_menu_dart_sizedbox",
       "community": 0,
       "norm_label": "sizedbox"
+    },
+    {
+      "label": "_buildAdBanner",
+      "file_type": "code",
+      "source_file": "lib\\src\\menu\\main_menu.dart",
+      "source_location": null,
+      "id": "d_project_google_play_tetris_lib_src_menu_main_menu_dart_buildadbanner",
+      "community": 0,
+      "norm_label": "_buildadbanner"
+    },
+    {
+      "label": "Container",
+      "file_type": "code",
+      "source_file": "lib\\src\\menu\\main_menu.dart",
+      "source_location": null,
+      "id": "d_project_google_play_tetris_lib_src_menu_main_menu_dart_container",
+      "community": 0,
+      "norm_label": "container"
     },
     {
       "label": "_buildHeader",
@@ -1685,15 +1964,6 @@
       "id": "d_project_google_play_tetris_lib_src_menu_main_menu_dart_animatedbuilder",
       "community": 0,
       "norm_label": "animatedbuilder"
-    },
-    {
-      "label": "Container",
-      "file_type": "code",
-      "source_file": "lib\\src\\menu\\main_menu.dart",
-      "source_location": null,
-      "id": "d_project_google_play_tetris_lib_src_menu_main_menu_dart_container",
-      "community": 0,
-      "norm_label": "container"
     },
     {
       "label": "_showTutorial",
@@ -1741,6 +2011,15 @@
       "norm_label": "shouldrepaint"
     },
     {
+      "label": "Stack",
+      "file_type": "code",
+      "source_file": "lib\\src\\menu\\main_menu.dart",
+      "source_location": null,
+      "id": "d_project_google_play_tetris_lib_src_menu_main_menu_dart_stack",
+      "community": 0,
+      "norm_label": "stack"
+    },
+    {
       "label": "GestureDetector",
       "file_type": "code",
       "source_file": "lib\\src\\menu\\main_menu.dart",
@@ -1773,7 +2052,7 @@
       "source_file": "lib\\src\\services\\high_score_service.dart",
       "source_location": null,
       "id": "lib_src_services_high_score_service_dart",
-      "community": 2,
+      "community": 4,
       "norm_label": "high_score_service.dart"
     },
     {
@@ -1782,7 +2061,7 @@
       "source_file": "lib\\src\\services\\high_score_service.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_services_high_score_service_dart_highscoreservice",
-      "community": 2,
+      "community": 4,
       "norm_label": "highscoreservice"
     },
     {
@@ -1791,7 +2070,7 @@
       "source_file": "lib\\src\\services\\high_score_service.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_services_high_score_service_dart_highscoreprovider",
-      "community": 2,
+      "community": 4,
       "norm_label": "highscoreprovider"
     },
     {
@@ -1800,7 +2079,7 @@
       "source_file": "lib\\src\\services\\high_score_service.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_services_high_score_service_dart_of",
-      "community": 2,
+      "community": 4,
       "norm_label": "of"
     },
     {
@@ -1809,7 +2088,7 @@
       "source_file": "test\\high_score_test.dart",
       "source_location": null,
       "id": "package_shared_preferences_shared_preferences_dart",
-      "community": 2,
+      "community": 4,
       "norm_label": "package:shared_preferences/shared_preferences.dart"
     },
     {
@@ -1930,6 +2209,15 @@
       "norm_label": "build"
     },
     {
+      "label": "Center",
+      "file_type": "code",
+      "source_file": "lib\\src\\widgets\\banner_ad_widget.dart",
+      "source_location": null,
+      "id": "d_project_google_play_tetris_lib_src_widgets_banner_ad_widget_dart_center",
+      "community": 8,
+      "norm_label": "center"
+    },
+    {
       "label": "SizedBox",
       "file_type": "code",
       "source_file": "lib\\src\\widgets\\banner_ad_widget.dart",
@@ -1944,7 +2232,7 @@
       "source_file": "lib\\src\\widgets\\control_panel.dart",
       "source_location": null,
       "id": "lib_src_widgets_control_panel_dart",
-      "community": 7,
+      "community": 9,
       "norm_label": "control_panel.dart"
     },
     {
@@ -1953,7 +2241,7 @@
       "source_file": "lib\\src\\widgets\\control_panel.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_widgets_control_panel_dart_controlpanel",
-      "community": 7,
+      "community": 9,
       "norm_label": "controlpanel"
     },
     {
@@ -1962,7 +2250,7 @@
       "source_file": "lib\\src\\widgets\\control_panel.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_widgets_control_panel_dart_gamebutton",
-      "community": 7,
+      "community": 9,
       "norm_label": "_gamebutton"
     },
     {
@@ -1971,7 +2259,7 @@
       "source_file": "lib\\src\\widgets\\control_panel.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_widgets_control_panel_dart_gamebuttonstate",
-      "community": 7,
+      "community": 9,
       "norm_label": "_gamebuttonstate"
     },
     {
@@ -1980,7 +2268,7 @@
       "source_file": "lib\\src\\widgets\\control_panel.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_widgets_control_panel_dart_build",
-      "community": 7,
+      "community": 9,
       "norm_label": "build"
     },
     {
@@ -1989,7 +2277,7 @@
       "source_file": "lib\\src\\widgets\\control_panel.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_widgets_control_panel_dart_container",
-      "community": 7,
+      "community": 9,
       "norm_label": "container"
     },
     {
@@ -1998,7 +2286,7 @@
       "source_file": "lib\\src\\widgets\\control_panel.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_widgets_control_panel_dart_sizedbox",
-      "community": 7,
+      "community": 9,
       "norm_label": "sizedbox"
     },
     {
@@ -2007,7 +2295,7 @@
       "source_file": "lib\\src\\widgets\\control_panel.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_widgets_control_panel_dart_builddpad",
-      "community": 7,
+      "community": 9,
       "norm_label": "_builddpad"
     },
     {
@@ -2016,7 +2304,7 @@
       "source_file": "lib\\src\\widgets\\control_panel.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_widgets_control_panel_dart_row",
-      "community": 7,
+      "community": 9,
       "norm_label": "row"
     },
     {
@@ -2025,7 +2313,7 @@
       "source_file": "lib\\src\\widgets\\control_panel.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_widgets_control_panel_dart_buildactionbuttons",
-      "community": 7,
+      "community": 9,
       "norm_label": "_buildactionbuttons"
     },
     {
@@ -2034,7 +2322,7 @@
       "source_file": "lib\\src\\widgets\\control_panel.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_widgets_control_panel_dart_handletapdown",
-      "community": 7,
+      "community": 9,
       "norm_label": "_handletapdown"
     },
     {
@@ -2043,7 +2331,7 @@
       "source_file": "lib\\src\\widgets\\control_panel.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_widgets_control_panel_dart_handletapup",
-      "community": 7,
+      "community": 9,
       "norm_label": "_handletapup"
     },
     {
@@ -2052,7 +2340,7 @@
       "source_file": "lib\\src\\widgets\\control_panel.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_widgets_control_panel_dart_handletapcancel",
-      "community": 7,
+      "community": 9,
       "norm_label": "_handletapcancel"
     },
     {
@@ -2061,7 +2349,7 @@
       "source_file": "lib\\src\\widgets\\control_panel.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_widgets_control_panel_dart_gesturedetector",
-      "community": 7,
+      "community": 9,
       "norm_label": "gesturedetector"
     },
     {
@@ -2115,7 +2403,7 @@
       "source_file": "lib\\src\\widgets\\next_piece_preview.dart",
       "source_location": null,
       "id": "lib_src_widgets_next_piece_preview_dart",
-      "community": 9,
+      "community": 2,
       "norm_label": "next_piece_preview.dart"
     },
     {
@@ -2124,7 +2412,7 @@
       "source_file": "lib\\src\\widgets\\next_piece_preview.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_widgets_next_piece_preview_dart_nextpiecepreview",
-      "community": 9,
+      "community": 2,
       "norm_label": "nextpiecepreview"
     },
     {
@@ -2133,7 +2421,7 @@
       "source_file": "lib\\src\\widgets\\next_piece_preview.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_widgets_next_piece_preview_dart_nextpiecepainter",
-      "community": 9,
+      "community": 2,
       "norm_label": "_nextpiecepainter"
     },
     {
@@ -2142,7 +2430,7 @@
       "source_file": "lib\\src\\widgets\\next_piece_preview.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_widgets_next_piece_preview_dart_build",
-      "community": 9,
+      "community": 2,
       "norm_label": "build"
     },
     {
@@ -2151,7 +2439,7 @@
       "source_file": "lib\\src\\widgets\\next_piece_preview.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_widgets_next_piece_preview_dart_container",
-      "community": 9,
+      "community": 2,
       "norm_label": "container"
     },
     {
@@ -2160,7 +2448,7 @@
       "source_file": "lib\\src\\widgets\\next_piece_preview.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_widgets_next_piece_preview_dart_paint",
-      "community": 9,
+      "community": 2,
       "norm_label": "paint"
     },
     {
@@ -2169,7 +2457,7 @@
       "source_file": "lib\\src\\widgets\\next_piece_preview.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_widgets_next_piece_preview_dart_shouldrepaint",
-      "community": 9,
+      "community": 2,
       "norm_label": "shouldrepaint"
     },
     {
@@ -2178,7 +2466,7 @@
       "source_file": "lib\\src\\widgets\\tetris_board.dart",
       "source_location": null,
       "id": "lib_src_widgets_tetris_board_dart",
-      "community": 10,
+      "community": 2,
       "norm_label": "tetris_board.dart"
     },
     {
@@ -2187,7 +2475,7 @@
       "source_file": "lib\\src\\widgets\\tetris_board.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_widgets_tetris_board_dart_particle",
-      "community": 10,
+      "community": 2,
       "norm_label": "particle"
     },
     {
@@ -2196,7 +2484,7 @@
       "source_file": "lib\\src\\widgets\\tetris_board.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_widgets_tetris_board_dart_tetrisboard",
-      "community": 10,
+      "community": 2,
       "norm_label": "tetrisboard"
     },
     {
@@ -2205,7 +2493,7 @@
       "source_file": "lib\\src\\widgets\\tetris_board.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_widgets_tetris_board_dart_tetrisboardstate",
-      "community": 10,
+      "community": 2,
       "norm_label": "_tetrisboardstate"
     },
     {
@@ -2214,7 +2502,7 @@
       "source_file": "lib\\src\\widgets\\tetris_board.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_widgets_tetris_board_dart_boardpainter",
-      "community": 10,
+      "community": 2,
       "norm_label": "_boardpainter"
     },
     {
@@ -2223,7 +2511,7 @@
       "source_file": "lib\\src\\widgets\\tetris_board.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_widgets_tetris_board_dart_initstate",
-      "community": 10,
+      "community": 2,
       "norm_label": "initstate"
     },
     {
@@ -2232,7 +2520,7 @@
       "source_file": "lib\\src\\widgets\\tetris_board.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_widgets_tetris_board_dart_ongameupdate",
-      "community": 10,
+      "community": 2,
       "norm_label": "_ongameupdate"
     },
     {
@@ -2241,7 +2529,7 @@
       "source_file": "lib\\src\\widgets\\tetris_board.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_widgets_tetris_board_dart_spawnparticles",
-      "community": 10,
+      "community": 2,
       "norm_label": "_spawnparticles"
     },
     {
@@ -2250,7 +2538,7 @@
       "source_file": "lib\\src\\widgets\\tetris_board.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_widgets_tetris_board_dart_updateparticles",
-      "community": 10,
+      "community": 2,
       "norm_label": "_updateparticles"
     },
     {
@@ -2259,7 +2547,7 @@
       "source_file": "lib\\src\\widgets\\tetris_board.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_widgets_tetris_board_dart_build",
-      "community": 10,
+      "community": 2,
       "norm_label": "build"
     },
     {
@@ -2268,7 +2556,7 @@
       "source_file": "lib\\src\\widgets\\tetris_board.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_widgets_tetris_board_dart_custompaint",
-      "community": 10,
+      "community": 2,
       "norm_label": "custompaint"
     },
     {
@@ -2277,7 +2565,7 @@
       "source_file": "lib\\src\\widgets\\tetris_board.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_widgets_tetris_board_dart_dispose",
-      "community": 10,
+      "community": 2,
       "norm_label": "dispose"
     },
     {
@@ -2286,7 +2574,7 @@
       "source_file": "lib\\src\\widgets\\tetris_board.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_widgets_tetris_board_dart_paint",
-      "community": 10,
+      "community": 2,
       "norm_label": "paint"
     },
     {
@@ -2295,7 +2583,7 @@
       "source_file": "lib\\src\\widgets\\tetris_board.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_widgets_tetris_board_dart_color",
-      "community": 10,
+      "community": 2,
       "norm_label": "color"
     },
     {
@@ -2304,7 +2592,7 @@
       "source_file": "lib\\src\\widgets\\tetris_board.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_widgets_tetris_board_dart_drawcell",
-      "community": 10,
+      "community": 2,
       "norm_label": "_drawcell"
     },
     {
@@ -2313,7 +2601,7 @@
       "source_file": "lib\\src\\widgets\\tetris_board.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_lib_src_widgets_tetris_board_dart_shouldrepaint",
-      "community": 10,
+      "community": 2,
       "norm_label": "shouldrepaint"
     },
     {
@@ -2556,7 +2844,7 @@
       "source_file": "test\\game_logic_test.dart",
       "source_location": null,
       "id": "test_game_logic_test_dart",
-      "community": 2,
+      "community": 4,
       "norm_label": "game_logic_test.dart"
     },
     {
@@ -2565,7 +2853,7 @@
       "source_file": "test\\game_logic_test.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_test_game_logic_test_dart_main",
-      "community": 2,
+      "community": 4,
       "norm_label": "main"
     },
     {
@@ -2574,7 +2862,7 @@
       "source_file": "test\\improvements_test.dart",
       "source_location": null,
       "id": "package_flutter_test_flutter_test_dart",
-      "community": 2,
+      "community": 4,
       "norm_label": "package:flutter_test/flutter_test.dart"
     },
     {
@@ -2583,7 +2871,7 @@
       "source_file": "test\\improvements_test.dart",
       "source_location": null,
       "id": "package_tetris_src_tetris_game_dart",
-      "community": 2,
+      "community": 4,
       "norm_label": "package:tetris/src/tetris_game.dart"
     },
     {
@@ -2592,7 +2880,7 @@
       "source_file": "test\\improvements_test.dart",
       "source_location": null,
       "id": "package_tetris_src_services_sound_manager_dart",
-      "community": 2,
+      "community": 4,
       "norm_label": "package:tetris/src/services/sound_manager.dart"
     },
     {
@@ -2601,7 +2889,7 @@
       "source_file": "test\\high_score_test.dart",
       "source_location": null,
       "id": "test_high_score_test_dart",
-      "community": 2,
+      "community": 4,
       "norm_label": "high_score_test.dart"
     },
     {
@@ -2610,7 +2898,7 @@
       "source_file": "test\\high_score_test.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_test_high_score_test_dart_main",
-      "community": 2,
+      "community": 4,
       "norm_label": "main"
     },
     {
@@ -2619,7 +2907,7 @@
       "source_file": "test\\high_score_test.dart",
       "source_location": null,
       "id": "package_tetris_src_services_high_score_service_dart",
-      "community": 2,
+      "community": 4,
       "norm_label": "package:tetris/src/services/high_score_service.dart"
     },
     {
@@ -2628,7 +2916,7 @@
       "source_file": "test\\improvements_test.dart",
       "source_location": null,
       "id": "test_improvements_test_dart",
-      "community": 2,
+      "community": 4,
       "norm_label": "improvements_test.dart"
     },
     {
@@ -2637,7 +2925,7 @@
       "source_file": "test\\improvements_test.dart",
       "source_location": null,
       "id": "d_project_google_play_tetris_test_improvements_test_dart_main",
-      "community": 2,
+      "community": 4,
       "norm_label": "main"
     },
     {
@@ -2646,7 +2934,7 @@
       "source_file": "test\\improvements_test.dart",
       "source_location": null,
       "id": "package_tetris_src_tetromino_dart",
-      "community": 2,
+      "community": 4,
       "norm_label": "package:tetris/src/tetromino.dart"
     },
     {
@@ -2655,7 +2943,7 @@
       "source_file": "windows\\flutter\\generated_plugin_registrant.cc",
       "source_location": "L1",
       "id": "windows_flutter_generated_plugin_registrant_cc",
-      "community": 3,
+      "community": 5,
       "norm_label": "generated_plugin_registrant.cc"
     },
     {
@@ -2664,7 +2952,7 @@
       "source_file": "windows\\flutter\\generated_plugin_registrant.cc",
       "source_location": "L11",
       "id": "flutter_generated_plugin_registrant_registerplugins",
-      "community": 3,
+      "community": 5,
       "norm_label": "registerplugins()"
     },
     {
@@ -2682,7 +2970,7 @@
       "source_file": "windows\\runner\\flutter_window.cpp",
       "source_location": "L1",
       "id": "windows_runner_flutter_window_cpp",
-      "community": 3,
+      "community": 5,
       "norm_label": "flutter_window.cpp"
     },
     {
@@ -2691,7 +2979,7 @@
       "source_file": "windows\\runner\\flutter_window.h",
       "source_location": "L12",
       "id": "runner_flutter_window_flutterwindow",
-      "community": 3,
+      "community": 5,
       "norm_label": "flutterwindow()"
     },
     {
@@ -2700,7 +2988,7 @@
       "source_file": "windows\\runner\\flutter_window.cpp",
       "source_location": "L12",
       "id": "runner_flutter_window_oncreate",
-      "community": 3,
+      "community": 5,
       "norm_label": "oncreate()"
     },
     {
@@ -2709,7 +2997,7 @@
       "source_file": "windows\\runner\\flutter_window.cpp",
       "source_location": "L42",
       "id": "runner_flutter_window_ondestroy",
-      "community": 3,
+      "community": 5,
       "norm_label": "ondestroy()"
     },
     {
@@ -2718,7 +3006,7 @@
       "source_file": "windows\\runner\\flutter_window.cpp",
       "source_location": "L50",
       "id": "runner_flutter_window_messagehandler",
-      "community": 3,
+      "community": 5,
       "norm_label": "messagehandler()"
     },
     {
@@ -2727,7 +3015,7 @@
       "source_file": "windows\\runner\\flutter_window.h",
       "source_location": "L1",
       "id": "windows_runner_flutter_window_h",
-      "community": 3,
+      "community": 5,
       "norm_label": "flutter_window.h"
     },
     {
@@ -2808,7 +3096,7 @@
       "source_file": "windows\\runner\\win32_window.cpp",
       "source_location": "L1",
       "id": "windows_runner_win32_window_cpp",
-      "community": 3,
+      "community": 5,
       "norm_label": "win32_window.cpp"
     },
     {
@@ -2817,7 +3105,7 @@
       "source_file": "windows\\runner\\win32_window.cpp",
       "source_location": "L36",
       "id": "runner_win32_window_scale",
-      "community": 3,
+      "community": 5,
       "norm_label": "scale()"
     },
     {
@@ -2826,7 +3114,7 @@
       "source_file": "windows\\runner\\win32_window.cpp",
       "source_location": "L42",
       "id": "runner_win32_window_enablefulldpisupportifavailable",
-      "community": 3,
+      "community": 5,
       "norm_label": "enablefulldpisupportifavailable()"
     },
     {
@@ -2835,7 +3123,7 @@
       "source_file": "windows\\runner\\win32_window.cpp",
       "source_location": "L59",
       "id": "runner_win32_window_windowclassregistrar",
-      "community": 3,
+      "community": 5,
       "norm_label": "windowclassregistrar"
     },
     {
@@ -2844,7 +3132,7 @@
       "source_file": "windows\\runner\\win32_window.cpp",
       "source_location": "L61",
       "id": "runner_win32_window_windowclassregistrar_windowclassregistrar",
-      "community": 3,
+      "community": 5,
       "norm_label": ".windowclassregistrar()"
     },
     {
@@ -2853,7 +3141,7 @@
       "source_file": "windows\\runner\\win32_window.cpp",
       "source_location": "L89",
       "id": "runner_win32_window_getwindowclass",
-      "community": 3,
+      "community": 5,
       "norm_label": "getwindowclass()"
     },
     {
@@ -2862,7 +3150,7 @@
       "source_file": "windows\\runner\\win32_window.cpp",
       "source_location": "L109",
       "id": "runner_win32_window_unregisterwindowclass",
-      "community": 3,
+      "community": 5,
       "norm_label": "unregisterwindowclass()"
     },
     {
@@ -2871,7 +3159,7 @@
       "source_file": "windows\\runner\\win32_window.cpp",
       "source_location": "L114",
       "id": "runner_win32_window_win32window",
-      "community": 3,
+      "community": 5,
       "norm_label": "win32window()"
     },
     {
@@ -2880,7 +3168,7 @@
       "source_file": "windows\\runner\\win32_window.cpp",
       "source_location": "L123",
       "id": "runner_win32_window_create",
-      "community": 3,
+      "community": 5,
       "norm_label": "create()"
     },
     {
@@ -2889,7 +3177,7 @@
       "source_file": "windows\\runner\\win32_window.cpp",
       "source_location": "L152",
       "id": "runner_win32_window_show",
-      "community": 3,
+      "community": 5,
       "norm_label": "show()"
     },
     {
@@ -2898,7 +3186,7 @@
       "source_file": "windows\\runner\\win32_window.cpp",
       "source_location": "L157",
       "id": "runner_win32_window_wndproc",
-      "community": 3,
+      "community": 5,
       "norm_label": "wndproc()"
     },
     {
@@ -2907,7 +3195,7 @@
       "source_file": "windows\\runner\\win32_window.cpp",
       "source_location": "L176",
       "id": "runner_win32_window_messagehandler",
-      "community": 3,
+      "community": 5,
       "norm_label": "messagehandler()"
     },
     {
@@ -2916,7 +3204,7 @@
       "source_file": "windows\\runner\\win32_window.cpp",
       "source_location": "L224",
       "id": "runner_win32_window_destroy",
-      "community": 3,
+      "community": 5,
       "norm_label": "destroy()"
     },
     {
@@ -2925,7 +3213,7 @@
       "source_file": "windows\\runner\\win32_window.cpp",
       "source_location": "L236",
       "id": "runner_win32_window_getthisfromhandle",
-      "community": 3,
+      "community": 5,
       "norm_label": "getthisfromhandle()"
     },
     {
@@ -2934,7 +3222,7 @@
       "source_file": "windows\\runner\\win32_window.cpp",
       "source_location": "L241",
       "id": "runner_win32_window_setchildcontent",
-      "community": 3,
+      "community": 5,
       "norm_label": "setchildcontent()"
     },
     {
@@ -2943,7 +3231,7 @@
       "source_file": "windows\\runner\\win32_window.cpp",
       "source_location": "L252",
       "id": "runner_win32_window_getclientarea",
-      "community": 3,
+      "community": 5,
       "norm_label": "getclientarea()"
     },
     {
@@ -2952,7 +3240,7 @@
       "source_file": "windows\\runner\\win32_window.cpp",
       "source_location": "L258",
       "id": "runner_win32_window_gethandle",
-      "community": 3,
+      "community": 5,
       "norm_label": "gethandle()"
     },
     {
@@ -2961,7 +3249,7 @@
       "source_file": "windows\\runner\\win32_window.cpp",
       "source_location": "L262",
       "id": "runner_win32_window_setquitonclose",
-      "community": 3,
+      "community": 5,
       "norm_label": "setquitonclose()"
     },
     {
@@ -2970,7 +3258,7 @@
       "source_file": "windows\\runner\\win32_window.cpp",
       "source_location": "L266",
       "id": "runner_win32_window_oncreate",
-      "community": 3,
+      "community": 5,
       "norm_label": "oncreate()"
     },
     {
@@ -2979,7 +3267,7 @@
       "source_file": "windows\\runner\\win32_window.cpp",
       "source_location": "L271",
       "id": "runner_win32_window_ondestroy",
-      "community": 3,
+      "community": 5,
       "norm_label": "ondestroy()"
     },
     {
@@ -2988,7 +3276,7 @@
       "source_file": "windows\\runner\\win32_window.cpp",
       "source_location": "L275",
       "id": "runner_win32_window_updatetheme",
-      "community": 3,
+      "community": 5,
       "norm_label": "updatetheme()"
     },
     {
@@ -2999,6 +3287,78 @@
       "id": "windows_runner_win32_window_h",
       "community": 35,
       "norm_label": "win32_window.h"
+    },
+    {
+      "label": "_BoardPainter",
+      "file_type": "code",
+      "source_file": "lib\\src\\services\\sound_manager.dart",
+      "source_location": null,
+      "community": 11,
+      "norm_label": "_boardpainter",
+      "id": "d_project_google_play_tetris_lib_src_services_sound_manager_dart_boardpainter"
+    },
+    {
+      "label": "paint",
+      "file_type": "code",
+      "source_file": "lib\\src\\services\\sound_manager.dart",
+      "source_location": null,
+      "community": 11,
+      "norm_label": "paint",
+      "id": "d_project_google_play_tetris_lib_src_services_sound_manager_dart_paint"
+    },
+    {
+      "label": "Color",
+      "file_type": "code",
+      "source_file": "lib\\src\\services\\sound_manager.dart",
+      "source_location": null,
+      "community": 11,
+      "norm_label": "color",
+      "id": "d_project_google_play_tetris_lib_src_services_sound_manager_dart_color"
+    },
+    {
+      "label": "_drawCell",
+      "file_type": "code",
+      "source_file": "lib\\src\\services\\sound_manager.dart",
+      "source_location": null,
+      "community": 11,
+      "norm_label": "_drawcell",
+      "id": "d_project_google_play_tetris_lib_src_services_sound_manager_dart_drawcell"
+    },
+    {
+      "label": "shouldRepaint",
+      "file_type": "code",
+      "source_file": "lib\\src\\services\\sound_manager.dart",
+      "source_location": null,
+      "community": 11,
+      "norm_label": "shouldrepaint",
+      "id": "d_project_google_play_tetris_lib_src_services_sound_manager_dart_shouldrepaint"
+    },
+    {
+      "label": "Spacer",
+      "file_type": "code",
+      "source_file": "lib\\src\\game\\tetris_home.dart",
+      "source_location": null,
+      "community": 1,
+      "norm_label": "spacer",
+      "id": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_spacer"
+    },
+    {
+      "label": "SizedBox",
+      "file_type": "code",
+      "source_file": "lib\\src\\game\\board_card.dart",
+      "source_location": null,
+      "community": 10,
+      "norm_label": "sizedbox",
+      "id": "d_project_google_play_tetris_lib_src_game_board_card_dart_sizedbox"
+    },
+    {
+      "label": "Icon",
+      "file_type": "code",
+      "source_file": "lib\\src\\game\\board_card.dart",
+      "source_location": null,
+      "community": 10,
+      "norm_label": "icon",
+      "id": "d_project_google_play_tetris_lib_src_game_board_card_dart_icon"
     },
     {
       "label": "Row",
@@ -3260,15 +3620,6 @@
       "community": 0,
       "norm_label": "divider",
       "id": "d_project_google_play_tetris_lib_src_menu_main_menu_dart_divider"
-    },
-    {
-      "label": "Stack",
-      "file_type": "code",
-      "source_file": "lib\\src\\menu\\main_menu.dart",
-      "source_location": null,
-      "community": 0,
-      "norm_label": "stack",
-      "id": "d_project_google_play_tetris_lib_src_menu_main_menu_dart_stack"
     },
     {
       "label": "translate",
@@ -3721,15 +4072,6 @@
       "id": "d_project_google_play_tetris_lib_src_menu_main_menu_dart_howtoitem"
     },
     {
-      "label": "Icon",
-      "file_type": "code",
-      "source_file": "lib\\src\\menu\\main_menu.dart",
-      "source_location": null,
-      "community": 0,
-      "norm_label": "icon",
-      "id": "d_project_google_play_tetris_lib_src_menu_main_menu_dart_icon"
-    },
-    {
       "label": "Positioned",
       "file_type": "code",
       "source_file": "lib\\src\\menu\\main_menu.dart",
@@ -3797,7 +4139,7 @@
       "file_type": "code",
       "source_file": "lib\\src\\widgets\\control_panel.dart",
       "source_location": null,
-      "community": 7,
+      "community": 9,
       "norm_label": "_dpadbutton",
       "id": "d_project_google_play_tetris_lib_src_widgets_control_panel_dart_dpadbutton"
     },
@@ -3806,7 +4148,7 @@
       "file_type": "code",
       "source_file": "lib\\src\\widgets\\control_panel.dart",
       "source_location": null,
-      "community": 7,
+      "community": 9,
       "norm_label": "_actionbutton",
       "id": "d_project_google_play_tetris_lib_src_widgets_control_panel_dart_actionbutton"
     },
@@ -3815,25 +4157,16 @@
       "file_type": "code",
       "source_file": "lib\\src\\widgets\\control_panel.dart",
       "source_location": null,
-      "community": 7,
+      "community": 9,
       "norm_label": "column",
       "id": "d_project_google_play_tetris_lib_src_widgets_control_panel_dart_column"
-    },
-    {
-      "label": "_InfoPanelState",
-      "file_type": "code",
-      "source_file": "lib\\src\\game\\info_panel.dart",
-      "source_location": null,
-      "community": 1,
-      "norm_label": "_infopanelstate",
-      "id": "d_project_google_play_tetris_lib_src_game_info_panel_dart_infopanelstate"
     },
     {
       "label": "Icon",
       "file_type": "code",
       "source_file": "lib\\src\\game\\info_panel.dart",
       "source_location": null,
-      "community": 1,
+      "community": 3,
       "norm_label": "icon",
       "id": "d_project_google_play_tetris_lib_src_game_info_panel_dart_icon"
     },
@@ -3842,7 +4175,7 @@
       "file_type": "code",
       "source_file": "lib\\src\\tetris_game.dart",
       "source_location": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "pause",
       "id": "d_project_google_play_tetris_lib_src_tetris_game_dart_pause"
     },
@@ -3851,7 +4184,7 @@
       "file_type": "code",
       "source_file": "lib\\src\\tetris_game.dart",
       "source_location": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "continuefromgameover",
       "id": "d_project_google_play_tetris_lib_src_tetris_game_dart_continuefromgameover"
     },
@@ -3869,7 +4202,7 @@
       "file_type": "code",
       "source_file": "lib\\src\\widgets\\control_panel.dart",
       "source_location": null,
-      "community": 7,
+      "community": 9,
       "norm_label": "_systembutton",
       "id": "d_project_google_play_tetris_lib_src_widgets_control_panel_dart_systembutton"
     },
@@ -3878,7 +4211,7 @@
       "file_type": "code",
       "source_file": "lib\\src\\widgets\\control_panel.dart",
       "source_location": null,
-      "community": 7,
+      "community": 9,
       "norm_label": "_buildsystembuttons",
       "id": "d_project_google_play_tetris_lib_src_widgets_control_panel_dart_buildsystembuttons"
     },
@@ -4022,7 +4355,7 @@
       "file_type": "code",
       "source_file": "lib/src/game/game_over_dialog.dart",
       "source_location": null,
-      "community": 5,
+      "community": 6,
       "norm_label": "stat_card.dart",
       "id": "stat_card_dart"
     },
@@ -4031,7 +4364,7 @@
       "file_type": "code",
       "source_file": "lib/src/game/stat_card.dart",
       "source_location": null,
-      "community": 1,
+      "community": 3,
       "norm_label": "stat_card.dart",
       "id": "lib_src_game_stat_card_dart"
     },
@@ -4040,7 +4373,7 @@
       "file_type": "code",
       "source_file": "lib/src/game/stat_card.dart",
       "source_location": null,
-      "community": 1,
+      "community": 3,
       "norm_label": "statcard",
       "id": "d_project_google_play_tetris_lib_src_game_stat_card_dart_statcard"
     },
@@ -4049,7 +4382,7 @@
       "file_type": "code",
       "source_file": "lib/src/game/stat_card.dart",
       "source_location": null,
-      "community": 1,
+      "community": 3,
       "norm_label": "build",
       "id": "d_project_google_play_tetris_lib_src_game_stat_card_dart_build"
     },
@@ -4058,7 +4391,7 @@
       "file_type": "code",
       "source_file": "lib/src/game/stat_card.dart",
       "source_location": null,
-      "community": 1,
+      "community": 3,
       "norm_label": "container",
       "id": "d_project_google_play_tetris_lib_src_game_stat_card_dart_container"
     },
@@ -4067,7 +4400,7 @@
       "file_type": "code",
       "source_file": "lib/src/game/stat_card.dart",
       "source_location": null,
-      "community": 1,
+      "community": 3,
       "norm_label": "sizedbox",
       "id": "d_project_google_play_tetris_lib_src_game_stat_card_dart_sizedbox"
     },
@@ -4076,7 +4409,7 @@
       "file_type": "code",
       "source_file": "lib/src/game/hud_panel.dart",
       "source_location": null,
-      "community": 1,
+      "community": 3,
       "norm_label": "hud_panel.dart",
       "id": "lib_src_game_hud_panel_dart"
     },
@@ -4085,7 +4418,7 @@
       "file_type": "code",
       "source_file": "lib/src/game/hud_panel.dart",
       "source_location": null,
-      "community": 1,
+      "community": 3,
       "norm_label": "hudpanel",
       "id": "d_project_google_play_tetris_lib_src_game_hud_panel_dart_hudpanel"
     },
@@ -4094,7 +4427,7 @@
       "file_type": "code",
       "source_file": "lib/src/game/hud_panel.dart",
       "source_location": null,
-      "community": 1,
+      "community": 3,
       "norm_label": "_hudstat",
       "id": "d_project_google_play_tetris_lib_src_game_hud_panel_dart_hudstat"
     },
@@ -4103,7 +4436,7 @@
       "file_type": "code",
       "source_file": "lib/src/game/hud_panel.dart",
       "source_location": null,
-      "community": 1,
+      "community": 3,
       "norm_label": "build",
       "id": "d_project_google_play_tetris_lib_src_game_hud_panel_dart_build"
     },
@@ -4112,7 +4445,7 @@
       "file_type": "code",
       "source_file": "lib/src/game/hud_panel.dart",
       "source_location": null,
-      "community": 1,
+      "community": 3,
       "norm_label": "container",
       "id": "d_project_google_play_tetris_lib_src_game_hud_panel_dart_container"
     },
@@ -4121,7 +4454,7 @@
       "file_type": "code",
       "source_file": "lib/src/game/hud_panel.dart",
       "source_location": null,
-      "community": 1,
+      "community": 3,
       "norm_label": "sizedbox",
       "id": "d_project_google_play_tetris_lib_src_game_hud_panel_dart_sizedbox"
     },
@@ -4130,7 +4463,7 @@
       "file_type": "code",
       "source_file": "lib/src/game/hud_panel.dart",
       "source_location": null,
-      "community": 1,
+      "community": 3,
       "norm_label": "column",
       "id": "d_project_google_play_tetris_lib_src_game_hud_panel_dart_column"
     },
@@ -4139,7 +4472,7 @@
       "file_type": "code",
       "source_file": "lib/src/game/tetris_home.dart",
       "source_location": null,
-      "community": 4,
+      "community": 1,
       "norm_label": "hud_panel.dart",
       "id": "hud_panel_dart"
     },
@@ -4148,43 +4481,25 @@
       "file_type": "code",
       "source_file": "lib/src/game/info_panel.dart",
       "source_location": null,
-      "community": 1,
+      "community": 3,
       "norm_label": "package:auto_size_text/auto_size_text.dart",
       "id": "package_auto_size_text_auto_size_text_dart"
-    },
-    {
-      "label": "initState",
-      "file_type": "code",
-      "source_file": "lib/src/game/info_panel.dart",
-      "source_location": null,
-      "community": 1,
-      "norm_label": "initstate",
-      "id": "d_project_google_play_tetris_lib_src_game_info_panel_dart_initstate"
     },
     {
       "label": "didUpdateWidget",
       "file_type": "code",
       "source_file": "lib/src/game/info_panel.dart",
       "source_location": null,
-      "community": 1,
+      "community": 3,
       "norm_label": "didupdatewidget",
       "id": "d_project_google_play_tetris_lib_src_game_info_panel_dart_didupdatewidget"
-    },
-    {
-      "label": "dispose",
-      "file_type": "code",
-      "source_file": "lib/src/game/info_panel.dart",
-      "source_location": null,
-      "community": 1,
-      "norm_label": "dispose",
-      "id": "d_project_google_play_tetris_lib_src_game_info_panel_dart_dispose"
     },
     {
       "label": "_Badge",
       "file_type": "code",
       "source_file": "lib/src/game/info_panel.dart",
       "source_location": null,
-      "community": 1,
+      "community": 3,
       "norm_label": "_badge",
       "id": "d_project_google_play_tetris_lib_src_game_info_panel_dart_badge"
     },
@@ -4193,7 +4508,7 @@
       "file_type": "code",
       "source_file": "lib/src/game/info_panel.dart",
       "source_location": null,
-      "community": 1,
+      "community": 3,
       "norm_label": "_neonbuttonstyle",
       "id": "d_project_google_play_tetris_lib_src_game_info_panel_dart_neonbuttonstyle"
     },
@@ -4202,7 +4517,7 @@
       "file_type": "code",
       "source_file": "test/widget_test.dart",
       "source_location": null,
-      "community": 2,
+      "community": 4,
       "norm_label": "widget_test.dart",
       "id": "test_widget_test_dart"
     },
@@ -4211,7 +4526,7 @@
       "file_type": "code",
       "source_file": "test/widget_test.dart",
       "source_location": null,
-      "community": 2,
+      "community": 4,
       "norm_label": "main",
       "id": "d_project_google_play_tetris_test_widget_test_dart_main"
     },
@@ -4220,7 +4535,7 @@
       "file_type": "code",
       "source_file": "test/widget_test.dart",
       "source_location": null,
-      "community": 2,
+      "community": 4,
       "norm_label": "package:tetris/src/app.dart",
       "id": "package_tetris_src_app_dart"
     },
@@ -4229,7 +4544,7 @@
       "file_type": "code",
       "source_file": "lib/src/game/game_over_dialog.dart",
       "source_location": null,
-      "community": 5,
+      "community": 6,
       "norm_label": "dialog",
       "id": "d_project_google_play_tetris_lib_src_game_game_over_dialog_dart_dialog"
     },
@@ -4238,25 +4553,16 @@
       "file_type": "code",
       "source_file": "lib/src/game/tetris_home.dart",
       "source_location": null,
-      "community": 4,
+      "community": 1,
       "norm_label": "_updatehighscoreifneeded",
       "id": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_updatehighscoreifneeded"
-    },
-    {
-      "label": "Icon",
-      "file_type": "code",
-      "source_file": "lib/src/game/tetris_home.dart",
-      "source_location": null,
-      "community": 4,
-      "norm_label": "icon",
-      "id": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_icon"
     },
     {
       "label": "_controlButton",
       "file_type": "code",
       "source_file": "lib/src/widgets/control_panel.dart",
       "source_location": null,
-      "community": 7,
+      "community": 9,
       "norm_label": "_controlbutton",
       "id": "d_project_google_play_tetris_lib_src_widgets_control_panel_dart_controlbutton"
     },
@@ -4265,18 +4571,9 @@
       "file_type": "code",
       "source_file": "lib/src/widgets/control_panel.dart",
       "source_location": null,
-      "community": 7,
+      "community": 9,
       "norm_label": "elevatedbutton",
       "id": "d_project_google_play_tetris_lib_src_widgets_control_panel_dart_elevatedbutton"
-    },
-    {
-      "label": "Container",
-      "file_type": "code",
-      "source_file": "lib/src/game/tetris_home.dart",
-      "source_location": null,
-      "community": 4,
-      "norm_label": "container",
-      "id": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_container"
     }
   ],
   "links": [
@@ -4800,6 +5097,18 @@
       "relation": "imports",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
+      "source_file": "lib\\src\\services\\sound_manager.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "package_flutter_material_dart",
+      "_tgt": "lib_src_services_sound_manager_dart",
+      "source": "package_flutter_material_dart",
+      "target": "lib_src_services_sound_manager_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
       "source_file": "lib/src/game/stat_card.dart",
       "source_location": null,
       "weight": 1.0,
@@ -4867,6 +5176,18 @@
       "_tgt": "lib_src_widgets_control_panel_dart",
       "source": "package_flutter_services_dart",
       "target": "lib_src_widgets_control_panel_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib\\src\\menu\\main_menu.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "package_google_mobile_ads_google_mobile_ads_dart",
+      "_tgt": "lib_src_menu_main_menu_dart",
+      "source": "package_google_mobile_ads_google_mobile_ads_dart",
+      "target": "lib_src_menu_main_menu_dart"
     },
     {
       "relation": "imports",
@@ -5532,6 +5853,18 @@
       "relation": "imports",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
+      "source_file": "lib\\src\\services\\sound_manager.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "dart_math",
+      "_tgt": "lib_src_services_sound_manager_dart",
+      "source": "dart_math",
+      "target": "lib_src_services_sound_manager_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
       "source_file": "lib/src/game/game_over_dialog.dart",
       "source_location": null,
       "weight": 1.0,
@@ -5664,6 +5997,18 @@
       "relation": "defines",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
+      "source_file": "lib\\src\\game\\board_card.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "lib_src_game_board_card_dart",
+      "_tgt": "d_project_google_play_tetris_lib_src_game_board_card_dart_statustext",
+      "source": "lib_src_game_board_card_dart",
+      "target": "d_project_google_play_tetris_lib_src_game_board_card_dart_statustext"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
       "source_file": "lib/src/game/board_card.dart",
       "source_location": null,
       "weight": 1.0,
@@ -5772,13 +6117,13 @@
       "relation": "defines",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "lib/src/game/board_card.dart",
+      "source_file": "lib\\src\\game\\board_card.dart",
       "source_location": null,
       "weight": 1.0,
       "_src": "lib_src_game_board_card_dart",
-      "_tgt": "d_project_google_play_tetris_lib_src_game_board_card_dart_sizedbox",
+      "_tgt": "d_project_google_play_tetris_lib_src_game_board_card_dart_text",
       "source": "lib_src_game_board_card_dart",
-      "target": "d_project_google_play_tetris_lib_src_game_board_card_dart_sizedbox"
+      "target": "d_project_google_play_tetris_lib_src_game_board_card_dart_text"
     },
     {
       "relation": "defines",
@@ -5853,6 +6198,30 @@
       "target": "widgets_next_piece_preview_dart"
     },
     {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/src/game/board_card.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "lib_src_game_board_card_dart",
+      "_tgt": "d_project_google_play_tetris_lib_src_game_board_card_dart_sizedbox",
+      "source": "lib_src_game_board_card_dart",
+      "target": "d_project_google_play_tetris_lib_src_game_board_card_dart_sizedbox"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib\\src\\game\\board_card.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "lib_src_game_board_card_dart",
+      "_tgt": "d_project_google_play_tetris_lib_src_game_board_card_dart_icon",
+      "source": "lib_src_game_board_card_dart",
+      "target": "d_project_google_play_tetris_lib_src_game_board_card_dart_icon"
+    },
+    {
       "relation": "imports",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -5899,6 +6268,18 @@
       "_tgt": "lib_src_menu_main_menu_dart",
       "source": "package_google_fonts_google_fonts_dart",
       "target": "lib_src_menu_main_menu_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib\\src\\widgets\\banner_ad_widget.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "package_google_fonts_google_fonts_dart",
+      "_tgt": "lib_src_widgets_banner_ad_widget_dart",
+      "source": "package_google_fonts_google_fonts_dart",
+      "target": "lib_src_widgets_banner_ad_widget_dart"
     },
     {
       "relation": "imports",
@@ -5995,6 +6376,18 @@
       "_tgt": "lib_src_game_hud_panel_dart",
       "source": "tetris_game_dart",
       "target": "lib_src_game_hud_panel_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib\\src\\game\\tetris_home.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "widgets_next_piece_preview_dart",
+      "_tgt": "lib_src_game_tetris_home_dart",
+      "source": "widgets_next_piece_preview_dart",
+      "target": "lib_src_game_tetris_home_dart"
     },
     {
       "relation": "imports",
@@ -6333,6 +6726,42 @@
       "target": "d_project_google_play_tetris_lib_src_game_game_over_dialog_dart_dialog"
     },
     {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib\\src\\game\\info_panel.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "dart_ui",
+      "_tgt": "lib_src_game_info_panel_dart",
+      "source": "dart_ui",
+      "target": "lib_src_game_info_panel_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib\\src\\menu\\main_menu.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "dart_ui",
+      "_tgt": "lib_src_menu_main_menu_dart",
+      "source": "dart_ui",
+      "target": "lib_src_menu_main_menu_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib\\src\\widgets\\banner_ad_widget.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "dart_ui",
+      "_tgt": "lib_src_widgets_banner_ad_widget_dart",
+      "source": "dart_ui",
+      "target": "lib_src_widgets_banner_ad_widget_dart"
+    },
+    {
       "relation": "defines",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -6343,6 +6772,66 @@
       "_tgt": "d_project_google_play_tetris_lib_src_game_info_panel_dart_infopanel",
       "source": "lib_src_game_info_panel_dart",
       "target": "d_project_google_play_tetris_lib_src_game_info_panel_dart_infopanel"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/src/game/info_panel.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "lib_src_game_info_panel_dart",
+      "_tgt": "d_project_google_play_tetris_lib_src_game_info_panel_dart_infopanelstate",
+      "source": "lib_src_game_info_panel_dart",
+      "target": "d_project_google_play_tetris_lib_src_game_info_panel_dart_infopanelstate"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib\\src\\game\\info_panel.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "lib_src_game_info_panel_dart",
+      "_tgt": "d_project_google_play_tetris_lib_src_game_info_panel_dart_wireframepainter",
+      "source": "lib_src_game_info_panel_dart",
+      "target": "d_project_google_play_tetris_lib_src_game_info_panel_dart_wireframepainter"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib\\src\\game\\info_panel.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "lib_src_game_info_panel_dart",
+      "_tgt": "d_project_google_play_tetris_lib_src_game_info_panel_dart_hudframepainter",
+      "source": "lib_src_game_info_panel_dart",
+      "target": "d_project_google_play_tetris_lib_src_game_info_panel_dart_hudframepainter"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/src/game/info_panel.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "lib_src_game_info_panel_dart",
+      "_tgt": "d_project_google_play_tetris_lib_src_game_info_panel_dart_initstate",
+      "source": "lib_src_game_info_panel_dart",
+      "target": "d_project_google_play_tetris_lib_src_game_info_panel_dart_initstate"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/src/game/info_panel.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "lib_src_game_info_panel_dart",
+      "_tgt": "d_project_google_play_tetris_lib_src_game_info_panel_dart_dispose",
+      "source": "lib_src_game_info_panel_dart",
+      "target": "d_project_google_play_tetris_lib_src_game_info_panel_dart_dispose"
     },
     {
       "relation": "defines",
@@ -6396,13 +6885,37 @@
       "relation": "defines",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "lib/src/game/info_panel.dart",
+      "source_file": "lib\\src\\game\\info_panel.dart",
       "source_location": null,
       "weight": 1.0,
       "_src": "lib_src_game_info_panel_dart",
-      "_tgt": "d_project_google_play_tetris_lib_src_game_info_panel_dart_infopanelstate",
+      "_tgt": "d_project_google_play_tetris_lib_src_game_info_panel_dart_padding",
       "source": "lib_src_game_info_panel_dart",
-      "target": "d_project_google_play_tetris_lib_src_game_info_panel_dart_infopanelstate"
+      "target": "d_project_google_play_tetris_lib_src_game_info_panel_dart_padding"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib\\src\\game\\info_panel.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "lib_src_game_info_panel_dart",
+      "_tgt": "d_project_google_play_tetris_lib_src_game_info_panel_dart_paint",
+      "source": "lib_src_game_info_panel_dart",
+      "target": "d_project_google_play_tetris_lib_src_game_info_panel_dart_paint"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib\\src\\game\\info_panel.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "lib_src_game_info_panel_dart",
+      "_tgt": "d_project_google_play_tetris_lib_src_game_info_panel_dart_shouldrepaint",
+      "source": "lib_src_game_info_panel_dart",
+      "target": "d_project_google_play_tetris_lib_src_game_info_panel_dart_shouldrepaint"
     },
     {
       "relation": "defines",
@@ -6436,33 +6949,9 @@
       "source_location": null,
       "weight": 1.0,
       "_src": "lib_src_game_info_panel_dart",
-      "_tgt": "d_project_google_play_tetris_lib_src_game_info_panel_dart_initstate",
-      "source": "lib_src_game_info_panel_dart",
-      "target": "d_project_google_play_tetris_lib_src_game_info_panel_dart_initstate"
-    },
-    {
-      "relation": "defines",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "lib/src/game/info_panel.dart",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "lib_src_game_info_panel_dart",
       "_tgt": "d_project_google_play_tetris_lib_src_game_info_panel_dart_didupdatewidget",
       "source": "lib_src_game_info_panel_dart",
       "target": "d_project_google_play_tetris_lib_src_game_info_panel_dart_didupdatewidget"
-    },
-    {
-      "relation": "defines",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "lib/src/game/info_panel.dart",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "lib_src_game_info_panel_dart",
-      "_tgt": "d_project_google_play_tetris_lib_src_game_info_panel_dart_dispose",
-      "source": "lib_src_game_info_panel_dart",
-      "target": "d_project_google_play_tetris_lib_src_game_info_panel_dart_dispose"
     },
     {
       "relation": "defines",
@@ -6588,6 +7077,42 @@
       "relation": "defines",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
+      "source_file": "lib\\src\\game\\tetris_home.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "lib_src_game_tetris_home_dart",
+      "_tgt": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_hudbox",
+      "source": "lib_src_game_tetris_home_dart",
+      "target": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_hudbox"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib\\src\\game\\tetris_home.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "lib_src_game_tetris_home_dart",
+      "_tgt": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_inlinestat",
+      "source": "lib_src_game_tetris_home_dart",
+      "target": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_inlinestat"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib\\src\\game\\tetris_home.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "lib_src_game_tetris_home_dart",
+      "_tgt": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_statustext",
+      "source": "lib_src_game_tetris_home_dart",
+      "target": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_statustext"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
       "source_file": "lib/src/game/tetris_home.dart",
       "source_location": null,
       "weight": 1.0,
@@ -6696,6 +7221,30 @@
       "relation": "defines",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
+      "source_file": "lib\\src\\game\\tetris_home.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "lib_src_game_tetris_home_dart",
+      "_tgt": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_rotateintent",
+      "source": "lib_src_game_tetris_home_dart",
+      "target": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_rotateintent"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib\\src\\game\\tetris_home.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "lib_src_game_tetris_home_dart",
+      "_tgt": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_harddropintent",
+      "source": "lib_src_game_tetris_home_dart",
+      "target": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_harddropintent"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
       "source_file": "lib/src/game/tetris_home.dart",
       "source_location": null,
       "weight": 1.0,
@@ -6720,6 +7269,18 @@
       "relation": "defines",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
+      "source_file": "lib\\src\\game\\tetris_home.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "lib_src_game_tetris_home_dart",
+      "_tgt": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_center",
+      "source": "lib_src_game_tetris_home_dart",
+      "target": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_center"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
       "source_file": "lib/src/game/tetris_home.dart",
       "source_location": null,
       "weight": 1.0,
@@ -6727,6 +7288,102 @@
       "_tgt": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_banneradwidget",
       "source": "lib_src_game_tetris_home_dart",
       "target": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_banneradwidget"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib\\src\\game\\tetris_home.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "lib_src_game_tetris_home_dart",
+      "_tgt": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_buildtophud",
+      "source": "lib_src_game_tetris_home_dart",
+      "target": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_buildtophud"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib\\src\\game\\tetris_home.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "lib_src_game_tetris_home_dart",
+      "_tgt": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_animatedbuilder",
+      "source": "lib_src_game_tetris_home_dart",
+      "target": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_animatedbuilder"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/src/game/tetris_home.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "lib_src_game_tetris_home_dart",
+      "_tgt": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_icon",
+      "source": "lib_src_game_tetris_home_dart",
+      "target": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_icon"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib\\src\\game\\tetris_home.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "lib_src_game_tetris_home_dart",
+      "_tgt": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_buildstatshud",
+      "source": "lib_src_game_tetris_home_dart",
+      "target": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_buildstatshud"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib\\src\\game\\tetris_home.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "lib_src_game_tetris_home_dart",
+      "_tgt": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_divider",
+      "source": "lib_src_game_tetris_home_dart",
+      "target": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_divider"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/src/game/tetris_home.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "lib_src_game_tetris_home_dart",
+      "_tgt": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_container",
+      "source": "lib_src_game_tetris_home_dart",
+      "target": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_container"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib\\src\\game\\tetris_home.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "lib_src_game_tetris_home_dart",
+      "_tgt": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_row",
+      "source": "lib_src_game_tetris_home_dart",
+      "target": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_row"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib\\src\\game\\tetris_home.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "lib_src_game_tetris_home_dart",
+      "_tgt": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_text",
+      "source": "lib_src_game_tetris_home_dart",
+      "target": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_text"
     },
     {
       "relation": "imports",
@@ -6837,6 +7494,18 @@
       "target": "services_high_score_service_dart"
     },
     {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib\\src\\game\\tetris_home.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "lib_src_game_tetris_home_dart",
+      "_tgt": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_spacer",
+      "source": "lib_src_game_tetris_home_dart",
+      "target": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_spacer"
+    },
+    {
       "relation": "imports",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -6871,30 +7540,6 @@
       "_tgt": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_updatehighscoreifneeded",
       "source": "lib_src_game_tetris_home_dart",
       "target": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_updatehighscoreifneeded"
-    },
-    {
-      "relation": "defines",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "lib/src/game/tetris_home.dart",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "lib_src_game_tetris_home_dart",
-      "_tgt": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_icon",
-      "source": "lib_src_game_tetris_home_dart",
-      "target": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_icon"
-    },
-    {
-      "relation": "defines",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "lib/src/game/tetris_home.dart",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "lib_src_game_tetris_home_dart",
-      "_tgt": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_container",
-      "source": "lib_src_game_tetris_home_dart",
-      "target": "d_project_google_play_tetris_lib_src_game_tetris_home_dart_container"
     },
     {
       "relation": "imports",
@@ -6952,6 +7597,30 @@
       "source_location": null,
       "weight": 1.0,
       "_src": "lib_src_menu_main_menu_dart",
+      "_tgt": "d_project_google_play_tetris_lib_src_menu_main_menu_dart_dustparticle",
+      "source": "lib_src_menu_main_menu_dart",
+      "target": "d_project_google_play_tetris_lib_src_menu_main_menu_dart_dustparticle"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib\\src\\menu\\main_menu.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "lib_src_menu_main_menu_dart",
+      "_tgt": "d_project_google_play_tetris_lib_src_menu_main_menu_dart_digitaldustpainter",
+      "source": "lib_src_menu_main_menu_dart",
+      "target": "d_project_google_play_tetris_lib_src_menu_main_menu_dart_digitaldustpainter"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib\\src\\menu\\main_menu.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "lib_src_menu_main_menu_dart",
       "_tgt": "d_project_google_play_tetris_lib_src_menu_main_menu_dart_fallingpiece",
       "source": "lib_src_menu_main_menu_dart",
       "target": "d_project_google_play_tetris_lib_src_menu_main_menu_dart_fallingpiece"
@@ -6979,6 +7648,18 @@
       "_tgt": "d_project_google_play_tetris_lib_src_menu_main_menu_dart_hudbox",
       "source": "lib_src_menu_main_menu_dart",
       "target": "d_project_google_play_tetris_lib_src_menu_main_menu_dart_hudbox"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib\\src\\menu\\main_menu.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "lib_src_menu_main_menu_dart",
+      "_tgt": "d_project_google_play_tetris_lib_src_menu_main_menu_dart_hudframepainter",
+      "source": "lib_src_menu_main_menu_dart",
+      "target": "d_project_google_play_tetris_lib_src_menu_main_menu_dart_hudframepainter"
     },
     {
       "relation": "defines",
@@ -7027,6 +7708,30 @@
       "_tgt": "d_project_google_play_tetris_lib_src_menu_main_menu_dart_initstate",
       "source": "lib_src_menu_main_menu_dart",
       "target": "d_project_google_play_tetris_lib_src_menu_main_menu_dart_initstate"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib\\src\\menu\\main_menu.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "lib_src_menu_main_menu_dart",
+      "_tgt": "d_project_google_play_tetris_lib_src_menu_main_menu_dart_loadbannerad",
+      "source": "lib_src_menu_main_menu_dart",
+      "target": "d_project_google_play_tetris_lib_src_menu_main_menu_dart_loadbannerad"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib\\src\\menu\\main_menu.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "lib_src_menu_main_menu_dart",
+      "_tgt": "d_project_google_play_tetris_lib_src_menu_main_menu_dart_startglitchtimer",
+      "source": "lib_src_menu_main_menu_dart",
+      "target": "d_project_google_play_tetris_lib_src_menu_main_menu_dart_startglitchtimer"
     },
     {
       "relation": "defines",
@@ -7108,9 +7813,45 @@
       "source_location": null,
       "weight": 1.0,
       "_src": "lib_src_menu_main_menu_dart",
+      "_tgt": "d_project_google_play_tetris_lib_src_menu_main_menu_dart_icon",
+      "source": "lib_src_menu_main_menu_dart",
+      "target": "d_project_google_play_tetris_lib_src_menu_main_menu_dart_icon"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/src/menu/main_menu.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "lib_src_menu_main_menu_dart",
       "_tgt": "d_project_google_play_tetris_lib_src_menu_main_menu_dart_sizedbox",
       "source": "lib_src_menu_main_menu_dart",
       "target": "d_project_google_play_tetris_lib_src_menu_main_menu_dart_sizedbox"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib\\src\\menu\\main_menu.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "lib_src_menu_main_menu_dart",
+      "_tgt": "d_project_google_play_tetris_lib_src_menu_main_menu_dart_buildadbanner",
+      "source": "lib_src_menu_main_menu_dart",
+      "target": "d_project_google_play_tetris_lib_src_menu_main_menu_dart_buildadbanner"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib\\src\\menu\\main_menu.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "lib_src_menu_main_menu_dart",
+      "_tgt": "d_project_google_play_tetris_lib_src_menu_main_menu_dart_container",
+      "source": "lib_src_menu_main_menu_dart",
+      "target": "d_project_google_play_tetris_lib_src_menu_main_menu_dart_container"
     },
     {
       "relation": "defines",
@@ -7135,18 +7876,6 @@
       "_tgt": "d_project_google_play_tetris_lib_src_menu_main_menu_dart_animatedbuilder",
       "source": "lib_src_menu_main_menu_dart",
       "target": "d_project_google_play_tetris_lib_src_menu_main_menu_dart_animatedbuilder"
-    },
-    {
-      "relation": "defines",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "lib\\src\\menu\\main_menu.dart",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "lib_src_menu_main_menu_dart",
-      "_tgt": "d_project_google_play_tetris_lib_src_menu_main_menu_dart_container",
-      "source": "lib_src_menu_main_menu_dart",
-      "target": "d_project_google_play_tetris_lib_src_menu_main_menu_dart_container"
     },
     {
       "relation": "defines",
@@ -7207,6 +7936,18 @@
       "_tgt": "d_project_google_play_tetris_lib_src_menu_main_menu_dart_shouldrepaint",
       "source": "lib_src_menu_main_menu_dart",
       "target": "d_project_google_play_tetris_lib_src_menu_main_menu_dart_shouldrepaint"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib\\src\\menu\\main_menu.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "lib_src_menu_main_menu_dart",
+      "_tgt": "d_project_google_play_tetris_lib_src_menu_main_menu_dart_stack",
+      "source": "lib_src_menu_main_menu_dart",
+      "target": "d_project_google_play_tetris_lib_src_menu_main_menu_dart_stack"
     },
     {
       "relation": "defines",
@@ -7591,18 +8332,6 @@
       "_tgt": "d_project_google_play_tetris_lib_src_menu_main_menu_dart_divider",
       "source": "lib_src_menu_main_menu_dart",
       "target": "d_project_google_play_tetris_lib_src_menu_main_menu_dart_divider"
-    },
-    {
-      "relation": "defines",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "lib\\src\\menu\\main_menu.dart",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "lib_src_menu_main_menu_dart",
-      "_tgt": "d_project_google_play_tetris_lib_src_menu_main_menu_dart_stack",
-      "source": "lib_src_menu_main_menu_dart",
-      "target": "d_project_google_play_tetris_lib_src_menu_main_menu_dart_stack"
     },
     {
       "relation": "defines",
@@ -8208,18 +8937,6 @@
       "relation": "defines",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "lib/src/menu/main_menu.dart",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "lib_src_menu_main_menu_dart",
-      "_tgt": "d_project_google_play_tetris_lib_src_menu_main_menu_dart_icon",
-      "source": "lib_src_menu_main_menu_dart",
-      "target": "d_project_google_play_tetris_lib_src_menu_main_menu_dart_icon"
-    },
-    {
-      "relation": "defines",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": "lib\\src\\menu\\main_menu.dart",
       "source_location": null,
       "weight": 1.0,
@@ -8436,6 +9153,66 @@
       "relation": "defines",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
+      "source_file": "lib\\src\\services\\sound_manager.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "lib_src_services_sound_manager_dart",
+      "_tgt": "d_project_google_play_tetris_lib_src_services_sound_manager_dart_boardpainter",
+      "source": "lib_src_services_sound_manager_dart",
+      "target": "d_project_google_play_tetris_lib_src_services_sound_manager_dart_boardpainter"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib\\src\\services\\sound_manager.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "lib_src_services_sound_manager_dart",
+      "_tgt": "d_project_google_play_tetris_lib_src_services_sound_manager_dart_paint",
+      "source": "lib_src_services_sound_manager_dart",
+      "target": "d_project_google_play_tetris_lib_src_services_sound_manager_dart_paint"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib\\src\\services\\sound_manager.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "lib_src_services_sound_manager_dart",
+      "_tgt": "d_project_google_play_tetris_lib_src_services_sound_manager_dart_color",
+      "source": "lib_src_services_sound_manager_dart",
+      "target": "d_project_google_play_tetris_lib_src_services_sound_manager_dart_color"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib\\src\\services\\sound_manager.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "lib_src_services_sound_manager_dart",
+      "_tgt": "d_project_google_play_tetris_lib_src_services_sound_manager_dart_drawcell",
+      "source": "lib_src_services_sound_manager_dart",
+      "target": "d_project_google_play_tetris_lib_src_services_sound_manager_dart_drawcell"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib\\src\\services\\sound_manager.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "lib_src_services_sound_manager_dart",
+      "_tgt": "d_project_google_play_tetris_lib_src_services_sound_manager_dart_shouldrepaint",
+      "source": "lib_src_services_sound_manager_dart",
+      "target": "d_project_google_play_tetris_lib_src_services_sound_manager_dart_shouldrepaint"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
       "source_file": "lib/src/services/sound_manager.dart",
       "source_location": null,
       "weight": 1.0,
@@ -8503,6 +9280,18 @@
       "_tgt": "d_project_google_play_tetris_lib_src_widgets_banner_ad_widget_dart_build",
       "source": "lib_src_widgets_banner_ad_widget_dart",
       "target": "d_project_google_play_tetris_lib_src_widgets_banner_ad_widget_dart_build"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib\\src\\widgets\\banner_ad_widget.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "lib_src_widgets_banner_ad_widget_dart",
+      "_tgt": "d_project_google_play_tetris_lib_src_widgets_banner_ad_widget_dart_center",
+      "source": "lib_src_widgets_banner_ad_widget_dart",
+      "target": "d_project_google_play_tetris_lib_src_widgets_banner_ad_widget_dart_center"
     },
     {
       "relation": "defines",
