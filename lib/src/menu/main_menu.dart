@@ -23,9 +23,29 @@ class _MainMenuState extends State<MainMenu> with TickerProviderStateMixin {
   late AnimationController _scoreController;
   BannerAd? _bannerAd;
   bool _isAdLoaded = false;
+  Widget? _cachedAdWidget;
   final List<_FallingPiece> _pieces = [];
   final List<_DustParticle> _dustParticles = [];
   bool _isGlitching = false;
+  bool _isPaused = false;
+
+  void _pauseAnimations() {
+    _isPaused = true;
+    _fallController.stop();
+    _pulseController.stop();
+    _floatController.stop();
+    _gridController.stop();
+  }
+
+  void _resumeAnimations() {
+    if (!_isPaused) return;
+    _isPaused = false;
+    _fallController.repeat();
+    _pulseController.repeat(reverse: true);
+    _floatController.repeat(reverse: true);
+    _gridController.repeat();
+    _startGlitchTimer();
+  }
 
   @override
   void initState() {
@@ -79,7 +99,14 @@ class _MainMenuState extends State<MainMenu> with TickerProviderStateMixin {
       size: AdSize.banner,
       request: const AdRequest(),
       listener: BannerAdListener(
-        onAdLoaded: (ad) => setState(() => _isAdLoaded = true),
+        onAdLoaded: (ad) {
+          if (mounted) {
+            setState(() {
+              _isAdLoaded = true;
+              _cachedAdWidget = AdWidget(ad: _bannerAd!);
+            });
+          }
+        },
         onAdFailedToLoad: (ad, error) {
           ad.dispose();
           debugPrint('Ad failed to load: $error');
@@ -89,16 +116,15 @@ class _MainMenuState extends State<MainMenu> with TickerProviderStateMixin {
   }
 
   void _startGlitchTimer() {
+    if (_isPaused) return;
     Future.delayed(Duration(seconds: 5 + Random().nextInt(5)), () {
-      if (mounted) {
-        setState(() => _isGlitching = true);
-        Future.delayed(const Duration(milliseconds: 300), () {
-          if (mounted) {
-            setState(() => _isGlitching = false);
-            _startGlitchTimer();
-          }
-        });
-      }
+      if (!mounted || _isPaused) return;
+      setState(() => _isGlitching = true);
+      Future.delayed(const Duration(milliseconds: 300), () {
+        if (!mounted || _isPaused) return;
+        setState(() => _isGlitching = false);
+        _startGlitchTimer();
+      });
     });
   }
 
@@ -239,7 +265,14 @@ class _MainMenuState extends State<MainMenu> with TickerProviderStateMixin {
                         label: "MULAI BERMAIN",
                         icon: Icons.play_arrow_rounded,
                         color: Colors.cyanAccent,
-                        onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (_) => const TetrisHome())),
+                        onPressed: () async {
+                          _pauseAnimations();
+                          await Navigator.push(
+                            context,
+                            MaterialPageRoute(builder: (_) => const TetrisHome()),
+                          );
+                          _resumeAnimations();
+                        },
                       ),
                       const SizedBox(height: 20),
                       _MenuPillButton(
@@ -295,8 +328,8 @@ class _MainMenuState extends State<MainMenu> with TickerProviderStateMixin {
         child: BackdropFilter(
           filter: ImageFilter.blur(sigmaX: 5, sigmaY: 5),
           child: Center(
-            child: _isAdLoaded && _bannerAd != null
-                ? AdWidget(ad: _bannerAd!)
+            child: _isAdLoaded && _cachedAdWidget != null
+                ? _cachedAdWidget!
                 : Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [

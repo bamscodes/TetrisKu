@@ -1,5 +1,4 @@
 import 'package:google_mobile_ads/google_mobile_ads.dart';
-import '../../music_manager.dart';
 
 class InterstitialAdWidget {
   InterstitialAd? _interstitialAd;
@@ -33,5 +32,10 @@ class InterstitialAdWidget {
     } else {
       onAdClosed();
     }
+  }
+
+  void dispose() {
+    _interstitialAd?.dispose();
+    _interstitialAd = null;
   }
 }

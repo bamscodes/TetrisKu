@@ -153,20 +153,28 @@ class _BoardPainter extends CustomPainter {
   }
 
   void _drawCell(Canvas canvas, Rect rect, Color color) {
-    final rrect = RRect.fromRectAndRadius(
-      rect.deflate(rect.width * 0.08),
-      Radius.circular(rect.width * 0.18),
+    final shrinkWidth = rect.width * 0.08;
+    final deflatedRect = rect.deflate(shrinkWidth);
+    final radius = Radius.circular(rect.width * 0.18);
+    final rrect = RRect.fromRectAndRadius(deflatedRect, radius);
+
+    // Draw Shadow (using fast translate on rect instead of rrect.shift with new Offset)
+    final shadowRRect = RRect.fromRectAndRadius(
+      deflatedRect.translate(1.0, 1.0),
+      radius,
     );
+    canvas.drawRRect(shadowRRect, _shadowPaint);
 
-    // Shadow (reuse static paint)
-    canvas.drawRRect(rrect.shift(const Offset(1.0, 1.0)), _shadowPaint);
-
-    // Fill (reuse static paint, just change color)
+    // Draw Main Fill
     _cellPaint.color = color;
     canvas.drawRRect(rrect, _cellPaint);
 
-    // Highlight (reuse static paint)
-    canvas.drawRRect(rrect.shift(const Offset(-0.5, -0.5)), _highlightPaint);
+    // Draw Highlight (using fast translate on rect instead of rrect.shift with new Offset)
+    final highlightRRect = RRect.fromRectAndRadius(
+      deflatedRect.translate(-0.5, -0.5),
+      radius,
+    );
+    canvas.drawRRect(highlightRRect, _highlightPaint);
   }
 
   @override

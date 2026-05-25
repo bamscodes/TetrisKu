@@ -72,6 +72,7 @@ class _TetrisHomeState extends State<TetrisHome> {
   @override
   void dispose() {
     game.dispose();
+    interstitialHelper.dispose();
     super.dispose();
   }
 

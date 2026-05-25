@@ -8,11 +8,15 @@ class Tetromino {
   List<Offset> blocks;
   int rotation;
 
-  Tetromino(this.type, {this.rotation = 0}) : blocks = _initialShape(type);
+  Tetromino(this.type, {this.rotation = 0, List<Offset>? blocks})
+      : blocks = blocks ?? _initialShape(type);
 
   Tetromino copyWith({List<Offset>? blocks, int? rotation}) {
-    return Tetromino(type, rotation: rotation ?? this.rotation)
-      ..blocks = blocks ?? this.blocks;
+    return Tetromino(
+      type,
+      rotation: rotation ?? this.rotation,
+      blocks: blocks ?? this.blocks,
+    );
   }
 
   static List<Offset> _initialShape(PieceType t) {

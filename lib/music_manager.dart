@@ -8,37 +8,70 @@ class MusicManager {
   static Future<void> playMenuMusic() async {
     if (_isMuted) return;
     try {
-      await _player.stop();
-      await _player.setSource(AssetSource('sounds/menu.wav'));
-      await _player.resume();
+      _player.setSource(AssetSource('sounds/menu_theme.wav')).then((_) {
+        if (!_isMuted) {
+          _player.resume().catchError((e) {
+            debugPrint("Music resume error: $e");
+          });
+        }
+      }).catchError((e) {
+        debugPrint("Music setSource error: $e");
+      });
     } catch (e) {
-      debugPrint("Music error: $e");
+      debugPrint("Music playMenuMusic error: $e");
     }
   }
 
   static Future<void> playGameplayMusic() async {
     if (_isMuted) return;
     try {
-      await _player.stop();
-      await _player.setSource(AssetSource('sounds/gameplay.wav'));
-      await _player.resume();
+      _player.setSource(AssetSource('sounds/menu_theme.wav')).then((_) {
+        if (!_isMuted) {
+          _player.resume().catchError((e) {
+            debugPrint("Music resume error: $e");
+          });
+        }
+      }).catchError((e) {
+        debugPrint("Music setSource error: $e");
+      });
     } catch (e) {
-      debugPrint("Music error: $e");
+      debugPrint("Music playGameplayMusic error: $e");
     }
   }
 
   static Future<void> stop() async {
-    await _player.stop();
+    try {
+      _player.stop().catchError((e) {
+        debugPrint("Music stop error: $e");
+      });
+    } catch (e) {
+      debugPrint("Music stop catch error: $e");
+    }
   }
 
   static Future<void> reset() async {
     if (_isMuted) return;
-    await _player.stop();
-    await _player.resume();
+    try {
+      _player.setSource(AssetSource('sounds/menu_theme.wav')).then((_) {
+        if (!_isMuted) {
+          _player.resume().catchError((e) {
+            debugPrint("Music reset resume error: $e");
+          });
+        }
+      }).catchError((e) {
+        debugPrint("Music reset setSource error: $e");
+      });
+    } catch (e) {
+      debugPrint("Music reset error: $e");
+    }
   }
 
   static void setMute(bool muted) {
     _isMuted = muted;
-    if (muted) _player.pause();
+    if (muted) {
+      _player.pause().catchError((e) {
+        debugPrint("Music pause error: $e");
+      });
+    }
   }
 }

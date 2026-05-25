@@ -1,0 +1,95 @@
+class _CompactHUDBox extends StatelessWidget {
+  final String label;
+  final Widget child;
+  const _CompactHUDBox({required this.label, required this.child});
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      mainAxisSize: MainAxisSize.min,
+      children: [
+        Text(
+          label,
+          style: GoogleFonts.orbitron(fontSize: 7, color: Colors.cyanAccent.withOpacity(0.5), fontWeight: FontWeight.bold),
+        ),
+        const SizedBox(height: 2),
+        child,
+      ],
+    );
+  }
+}
+
+class _InlineStat extends StatelessWidget {
+  final String label;
+  final String value;
+  final Color color;
+  final double fontSize;
+  const _InlineStat({required this.label, required this.value, required this.color, required this.fontSize});
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      mainAxisSize: MainAxisSize.min,
+      crossAxisAlignment: CrossAxisAlignment.center,
+      children: [
+        Text(label, style: GoogleFonts.orbitron(fontSize: fontSize * 0.6, color: Colors.white38, fontWeight: FontWeight.bold)),
+        Text(value, style: GoogleFonts.orbitron(fontSize: fontSize, color: color, fontWeight: FontWeight.w900, shadows: [Shadow(color: color.withOpacity(0.5), blurRadius: 10)])),
+      ],
+    );
+  }
+}
+
+class _StatusText extends StatelessWidget {
+  final TetrisGame game;
+  const _StatusText({required this.game});
+
+  @override
+  Widget build(BuildContext context) {
+    String text = "READY";
+    Color color = Colors.cyanAccent;
+    if (game.state == GameState.running) {
+      text = "PLAYING";
+      color = Colors.lightGreenAccent;
+    } else if (game.state == GameState.gameOver) {
+      text = "GAME OVER";
+      color = Colors.pinkAccent;
+    }
+    return Text(
+      text,
+      style: GoogleFonts.orbitron(fontSize: 10, fontWeight: FontWeight.bold, color: color.withOpacity(0.8), letterSpacing: 1),
+    );
+  }
+}
+
+// ── CUSTOM PAINTERS ──
+
+class _DigitalParticle {
+  late double x, y, size, speed, opacity;
+  _DigitalParticle.random() {
+    final rng = Random();
+    x = rng.nextDouble();
+    y = rng.nextDouble();
+    size = rng.nextDouble() * 2 + 1;
+    speed = 0.02 + rng.nextDouble() * 0.05;
+    opacity = 0.1 + rng.nextDouble() * 0.3;
+  }
+}
+
+class _BackgroundPainter extends CustomPainter {
+  final List<_DigitalParticle> particles;
+  final double progress;
+  _BackgroundPainter(this.particles, this.progress);
+
+  @override
+  void paint(Canvas canvas, Size size) {
+    final paint = Paint()..style = PaintingStyle.fill;
+    for (var p in particles) {
+      final double yPos = ((p.y + progress * p.speed) % 1.0) * size.height;
+      paint.color = Colors.cyanAccent.withOpacity(p.opacity * (0.5 + 0.5 * sin(progress * 2 * pi + p.x * 10)));
+      canvas.drawRect(Rect.fromLTWH(p.x * size.width, yPos, p.size, p.size), paint);
+    }
+  }
+
+  @override
+  bool shouldRepaint(covariant _BackgroundPainter oldDelegate) => true;
+}

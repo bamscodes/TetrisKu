@@ -11,6 +11,7 @@ class BannerAdWidget extends StatefulWidget {
 class _BannerAdWidgetState extends State<BannerAdWidget> {
   BannerAd? _bannerAd;
   bool _isLoaded = false;
+  Widget? _cachedAdWidget;
 
   @override
   void initState() {
@@ -26,7 +27,10 @@ class _BannerAdWidgetState extends State<BannerAdWidget> {
       listener: BannerAdListener(
         onAdLoaded: (ad) {
           if (!mounted) return;
-          setState(() => _isLoaded = true);
+          setState(() {
+            _isLoaded = true;
+            _cachedAdWidget = AdWidget(ad: _bannerAd!);
+          });
         },
         onAdFailedToLoad: (ad, error) {
           ad.dispose();
@@ -43,13 +47,13 @@ class _BannerAdWidgetState extends State<BannerAdWidget> {
 
   @override
   Widget build(BuildContext context) {
-    if (!_isLoaded || _bannerAd == null) return const SizedBox(height: 50);
+    if (!_isLoaded || _cachedAdWidget == null) return const SizedBox(height: 50);
 
     return Container(
       alignment: Alignment.center,
       width: _bannerAd!.size.width.toDouble(),
       height: _bannerAd!.size.height.toDouble(),
-      child: AdWidget(ad: _bannerAd!),
+      child: _cachedAdWidget!,
     );
   }
 }

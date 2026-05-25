@@ -9,6 +9,7 @@ class SoundManager {
   
   static bool _isMuted = false;
   static bool enableSound = true;
+  static int _lastGlobalPlayTime = 0;
 
   static Future<void> preload() async {
     if (!enableSound) return;
@@ -47,10 +48,15 @@ class SoundManager {
     if (_isMuted || !enableSound) return;
 
     final now = DateTime.now().millisecondsSinceEpoch;
+
+    // 1. Global Throttle: Max 1 SFX per 120ms across the entire game to protect platform channel
+    if (now - _lastGlobalPlayTime < 120) return;
+
     final lastPlay = _lastPlayTimes[assetPath] ?? 0;
-    
-    // Throttle ketat: 150ms agar tidak membebani main thread
-    if (now - lastPlay < 150) return;
+    // 2. Per-Asset Throttle: Max 1 of the same sound per 220ms
+    if (now - lastPlay < 220) return;
+
+    _lastGlobalPlayTime = now;
     _lastPlayTimes[assetPath] = now;
 
     try {
@@ -59,8 +65,13 @@ class SoundManager {
         final idx = _sfxIndices[assetPath]! % players.length;
         final p = players[idx];
         
-        // Non-blocking play
-        p.resume(); 
+        // 3. Reliable playback: seek(Duration.zero) first, then resume, entirely non-blocking
+        p.seek(Duration.zero).then((_) {
+          if (!_isMuted && enableSound) {
+            p.resume().catchError((_) {});
+          }
+        }).catchError((_) {});
+        
         _sfxIndices[assetPath] = idx + 1;
       }
     } catch (e) {

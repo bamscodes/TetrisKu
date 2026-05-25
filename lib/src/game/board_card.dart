@@ -112,13 +112,13 @@ class _BoardCardState extends State<BoardCard>
       } else {
         widget.game.moveLeft();
       }
-      HapticFeedback.selectionClick();
+      HapticHelper.vibrate(() => HapticFeedback.selectionClick());
       _hDragOffset = 0;
     }
 
     if (_vDragOffset > _vThreshold) {
       widget.game.softDrop();
-      HapticFeedback.selectionClick();
+      HapticHelper.vibrate(() => HapticFeedback.selectionClick());
       _vDragOffset = 0;
     }
   }
@@ -201,5 +201,17 @@ class _BoardCardState extends State<BoardCard>
         ),
       ),
     );
+  }
+}
+
+class HapticHelper {
+  static int _lastVibrateTime = 0;
+
+  static void vibrate(VoidCallback action) {
+    final now = DateTime.now().millisecondsSinceEpoch;
+    if (now - _lastVibrateTime > 120) { // Limit vibrations to max once per 120ms
+      action();
+      _lastVibrateTime = now;
+    }
   }
 }
